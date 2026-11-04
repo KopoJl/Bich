@@ -11,7 +11,7 @@
 
 Картинки (строго в этом порядке):
 1. `@image1` — стартовый кадр: https://res-prod.buzzy.now/file-service/c961ca73-0425-4e15-a2ca-9d8afe32c537.png
-2. `@image2` — конечная композиция: `00_bible/approved/SH030_end_crop.png` (загрузить в Buzzy)
+2. `@image2` — конечная композиция (уже загружена в Buzzy): https://res-prod.buzzy.now/file-service/cf0e1521-ffa6-46b0-8701-a91957d18bf5.jpg
 3. `@image3` — карта Рут v5e: https://res-prod.buzzy.now/file-service/14db95a1-86da-43a8-b457-cd531f9a8cbd.png
 
 ```
