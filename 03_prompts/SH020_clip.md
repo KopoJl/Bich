@@ -1,6 +1,6 @@
 # SH020 — клип (видеопромт, Seedance 2.x, 8 с, 16:9) · 中文
 
-Модель: Seedance 2.0 (Buzzy: `dreamina-seedance-2-0-260128`), 8 с, 16:9, 1080p.
+Модель: **Seedance 2.5** (решение пользователя), 8 с, 16:9, **720p**.
 Референсы (строго в этом порядке): `@image1` = стартовый кадр SH020 v3 — https://res-prod.buzzy.now/file-service/7cd098e7-381e-49e2-9331-8509f009ea8a.png · `@image2` = карта Рут v5e — https://res-prod.buzzy.now/file-service/14db95a1-86da-43a8-b457-cd531f9a8cbd.png · `@image3` = ночная комната L1-e — https://res-prod.buzzy.now/file-service/f271a3cf-74d8-47fa-a7d8-7f792e52ceb5.png. Реплик нет.
 
 ```
