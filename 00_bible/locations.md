@@ -22,7 +22,15 @@
 
 **Ось 180° на весь фильм:** линия идёт от Рут к северной стене (дверь, часы, шкаф — источники угрозы). Камера всегда стоит с восточной стороны, со стороны окна. Взгляд Рут на угрозу идёт **вглубь кадра или вправо**, угроза появляется **справа или в глубине**.
 
-## LOCATION LOCK (дословно)
+## LOCATION LOCK — 中文 (дословно)
+
+```
+前厅（FRONT ROOM）：一栋破旧的1970年代伦敦市政联排住宅的一楼前厅，4.0米×5.0米，层高2.5米；后墙：左侧是虚掩的走廊门，中间是封死的壁炉，上方挂着一只电子挂钟，右侧是门虚掩的壁龛储物柜；右墙：挂着纱帘的凸窗，玻璃上有雨水；左墙：放着唱机的餐具柜，上方挂着一个小木十字架；灰绿色碎花墙纸，靠近天花板处有水渍；天花板中央垂着一盏关着的布罩吊灯；一把面朝壁炉的绿色扶手椅，前面一张深色柚木矮咖啡桌，桌上有一盏羊皮纸灯罩小台灯、一台便携式卡带录音机、一支黑色橡胶手电筒和一杯茶。
+```
+
+Перевод: передняя комната муниципального террасного дома 1970-х, 4,0 × 5,0 м, потолок 2,5 м; задняя стена: слева приоткрытая дверь в коридор, в центре заколоченный камин с электрическими часами, справа приоткрытый встроенный шкаф; правая стена — эркер с тюлем и дождём на стекле; левая — сервант с проигрывателем и деревянным распятием; серо-зелёные обои в цветочек с пятнами сырости; выключенная потолочная лампа с тканевым абажуром; зелёное кресло лицом к камину, перед ним столик с лампой, магнитофоном, фонариком и чаем.
+
+## LOCATION LOCK — English (справка)
 
 ```
 FRONT ROOM: ground-floor front room of a worn 1970s London council terraced house, 4.0 by 5.0 m, ceiling 2.5 m; back wall: hall door on the left standing ajar, boarded fireplace in the middle with an electric wall clock above it, built-in alcove cupboard on the right with its door ajar; right wall: bay window with net curtains and rain on the glass; left wall: sideboard with a record player and a small wooden crucifix above it; grey-green floral wallpaper with water stains near the ceiling; green armchair facing the fireplace, low dark teak coffee table in front of it with a small parchment-shade lamp, a portable cassette recorder, a black rubber torch and a cup of tea.
@@ -31,15 +39,15 @@ FRONT ROOM: ground-floor front room of a worn 1970s London council terraced hous
 ## Промт карты локации (A.15; пустая локация; 16:9; вид из юго-восточного угла)
 
 ```
-Empty location sheet, 16:9, wide view of a room. Hand-drawn 2D adult animated feature look: fine even-weight ink linework with a slight hand-made wobble, restrained two-tone cel shading with soft-edged shadow shapes, meticulously observed painted background of a lived-in 1970s London interior, subdued desaturated colours, fine film grain.
-Camera: standing in the south-east corner at 1.6 m, tilted 8° down, 24 mm lens, 74° horizontal field of view, no lens distortion, looking north-west.
-LEFT zone — foreground: the end of a low dark teak coffee table; midground: a sideboard with a record player against the left wall, a small wooden crucifix above it at head height; background: the hall door in the back wall standing ajar, a black gap into the unlit hall.
-CENTER zone — foreground: a green armchair seen from behind and to the side, worn armrests; on the coffee table a small lamp with a yellowed parchment shade, a portable cassette recorder, a black rubber torch, a cup of tea; background: a boarded fireplace with a round electric wall clock above it.
-RIGHT zone — foreground: net curtain edge of the bay window, rain drops on the glass; background: a built-in alcove cupboard with its door ajar by 4 cm.
-Light: the lamp is the only warm source, a small amber pool on the table and the armchair; cold blue-green streetlight enters through the bay window on the right in three long shafts with dust in them; the corners and the ceiling sink into deep shadow.
-Materials: grey-green floral wallpaper with water stains and one peeling seam, threadbare brown carpet, chipped cream paint on the door frames, a cable from the lamp running across the carpet.
-Space for one seated woman in the armchair facing the fireplace.
-No people, no silhouettes, no faces, no human figures, no human-shaped reflections or shadows, no mannequins, no statues of people, no posters with people. No text, no labels, no watermark.
+空场景设定图，16:9，房间的广角视图。手绘2D成人向动画长片风格：细而均匀的墨线，带轻微的手绘抖动；克制的双色赛璐璐阴影，阴影边缘柔和；精细观察绘制的1970年代伦敦生活化室内背景；低饱和、去色的色调；细腻的胶片颗粒。
+摄影机：站在东南角，离地1.6米，向下俯8°，24毫米镜头，水平视场角74°，无镜头畸变，望向西北。
+左区——前景：深色柚木矮咖啡桌的一端；中景：左墙边放着唱机的餐具柜，上方与头同高处挂着一个小木十字架；背景：后墙上的走廊门虚掩，门缝通向没有灯的走廊，一片漆黑。
+中区——前景：一把绿色扶手椅，从后侧方看过去，扶手磨旧；咖啡桌上有一盏亮着的泛黄羊皮纸灯罩小台灯、一台便携式卡带录音机、一支黑色橡胶手电筒、一杯茶；天花板中央垂着一盏关着的深棕色布罩吊灯；背景：封死的壁炉，上方挂着一只圆形电子挂钟。
+右区——前景：凸窗纱帘的边缘，玻璃上有雨滴；背景：壁龛储物柜，门虚掩4厘米。
+光线：台灯是唯一的暖光源，在桌面和扶手椅上形成一小片琥珀色光池；冷色的蓝绿色路灯光从右侧凸窗射入，形成三道长长的光束，光束中有灰尘；墙角和天花板沉入深阴影。
+材质：带水渍和一道翘起接缝的灰绿色碎花墙纸，磨薄的棕色地毯，剥落的奶油色门框油漆，一根台灯电线横过地毯。
+为一位坐在扶手椅上、面朝壁炉的女性留出空间。
+无人物、无剪影、无人脸、无人形、无人形倒影或阴影、无人体模型、无人像雕塑、无带人物的海报。无文字、无标签、无水印。
 ```
 
 После утверждения правкой получить: (1) тот же вид при пасмурном рассвете для SH140; (2) обратный вид от камина (`same layout, same anchor objects in the same places, camera turned 180°`).

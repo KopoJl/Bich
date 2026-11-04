@@ -1,19 +1,17 @@
-# SH020 — Start Frame (промт картинки, A.15)
+# SH020 — Start Frame (промт картинки, A.15) · 中文
 
-Референсы: `@image1` = утверждённая карта комнаты L1 · `@image2` = утверждённая карта Рут.
+Модель: Seedream. Референсы: `@image1` = утверждённая карта комнаты L1 · `@image2` = утверждённая карта Рут.
 
 ```
-Start frame of an animated film shot, 16:9. Hand-drawn 2D adult animated feature look: realistic adult proportions about 7.5 heads tall, fine even-weight ink linework with a slight hand-made wobble, restrained two-tone cel shading with soft-edged shadow shapes, meticulously observed painted background of a lived-in 1970s London interior, subdued desaturated colours, fine film grain.
-@image1 = only the room layout, furniture and wallpaper. @image2 = only the face, hair, body and outfit of Ruth.
-Camera: standing in the corner by the bay window at 1.6 m, tilted 8° down, 24 mm lens, 74° horizontal field of view, no lens distortion, looking diagonally across the room.
-LEFT zone: a sideboard with a record player against the left wall, a small wooden crucifix above it; in the back wall the hall door stands ajar on a black gap.
-CENTER zone: Ruth sits in a green armchair facing the boarded fireplace, seen from behind and to her right, on the left third of the frame; she holds a cup of tea at chest height in her right hand and a saucer on her knee in her left hand; in front of her a low teak coffee table with a lit parchment-shade lamp at its left end, a cassette recorder and a black rubber torch; a round electric clock above the fireplace.
-RIGHT zone: net curtain of the bay window in the foreground; three long shafts of cold streetlight with dust in them fall across the carpet toward the left; in the back wall the alcove cupboard door is ajar by 4 cm.
-Light: the lamp is the only warm source, a small amber pool over the table, her hands and the far edge of her face, her near cheek in shadow with a thin cold edge; cold blue-green light from the bay window; rain-streak shadows on the wallpaper; the ceiling and the corners sink into deep shadow.
-Materials: worn green velvet armrests, bottle-green knitted cardigan, grey-green floral wallpaper with water stains, threadbare brown carpet, the lamp cable across it.
-Only one person in the room. No text, no labels, no watermark.
+动画电影镜头的首帧，16:9。手绘2D成人向动画长片风格：写实的成人比例，约7.5头身；细而均匀的墨线，带轻微的手绘抖动；克制的双色赛璐璐阴影，阴影边缘柔和；精细观察绘制的1970年代伦敦生活化室内背景；低饱和、去色的色调；细腻的胶片颗粒。
+@image1 = 仅用于房间布局、家具和墙纸。@image2 = 仅用于露丝的脸、头发、身体和服装。
+摄影机：站在凸窗旁的墙角，离地1.6米，向下俯8°，24毫米镜头，水平视场角74°，无镜头畸变，斜着望向房间对角。
+左区：左墙边放着唱机的餐具柜，上方挂着一个小木十字架；后墙上的走廊门虚掩，门缝漆黑。
+中区：露丝坐在一把绿色扶手椅上，面朝封死的壁炉，从她的身后偏右看过去，位于画面左三分之一处；她的右手把一杯茶端在胸前，左手把茶碟放在膝盖上；她面前是一张柚木矮咖啡桌，左端一盏亮着的羊皮纸灯罩台灯，还有一台卡带录音机和一支黑色橡胶手电筒；壁炉上方挂着一只圆形电子钟；天花板中央垂着一盏关着的深色布罩吊灯。
+右区：前景是凸窗的纱帘；三道长长的冷色路灯光束带着灰尘，斜穿地毯射向左侧；后墙上壁龛储物柜的门虚掩4厘米。
+光线：台灯是唯一的暖光源，一小片琥珀色光池落在桌面、她的双手和她脸的远侧边缘；她靠近镜头的脸颊在阴影中，带一道细细的冷色边光；凸窗透进冷蓝绿色的光；墙纸上有雨痕的影子；天花板和墙角沉入深阴影。
+材质：磨旧的绿色丝绒扶手，墨绿色针织开衫，带水渍的灰绿色碎花墙纸，磨薄的棕色地毯，台灯电线横过地毯。
+房间里只有一个人。无文字、无标签、无水印。
 ```
 
-**Перевод.** Стартовый кадр: угол у эркера, высота 1,6 м, наклон 8° вниз. Рут в кресле спиной к нам, в 3/4 справа, на левой трети кадра; чашка в правой руке у груди, блюдце в левой на колене. Слева сервант с проигрывателем, распятие и приоткрытая дверь. Справа тюль, три холодных луча через ковёр и щель шкафа. Тёплое пятно лампы — только у столика и её рук.
-
-Длина: 1 994 символа, в пределах 2 000 (запаса почти нет: любое добавление — сначала что-то убрать).
+**Перевод.** Стартовый кадр: угол у эркера, высота 1,6 м, наклон 8° вниз, 24 мм (горизонтальный угол 74°). Рут в кресле спиной к нам, в 3/4 справа, на левой трети кадра; чашка в правой руке у груди, блюдце в левой на колене. Слева сервант с проигрывателем, распятие и приоткрытая дверь. В центре столик с лампой, магнитофоном и фонариком, часы над камином, выключенная потолочная лампа. Справа тюль, три холодных луча через ковёр, щель шкафа. Тёплый свет лампы падает на столик, её руки и дальний край лица; ближняя щека в тени, с холодным контуром.

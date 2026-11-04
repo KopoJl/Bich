@@ -1,6 +1,20 @@
 # Style Lock, палитра, Light Lock
 
-## STYLE LOCK (копировать дословно в каждый промт)
+## Язык (решение пользователя, 04.11.2026)
+
+- **Промты — на китайском.** Названия тегов (`@image1`), числа и единицы (K, мм не пишем — FOV в °) остаются как есть.
+- **Озвучка — на английском.** Реплика всегда пишется английским оригиналом в кавычках с пометкой `用英语`; в 正向锁定 (закреплениях) всегда строка `所有台词保持英语原文`.
+- Под каждым промтом — русский перевод для проверки.
+
+## STYLE LOCK — 中文 (копировать дословно в каждый промт)
+
+```
+手绘2D成人向动画长片风格：写实的成人比例，约7.5头身；细而均匀的墨线，带轻微的手绘抖动；克制的双色赛璐璐阴影，阴影边缘柔和；精细观察绘制的1970年代伦敦生活化室内背景（磨旧的墙纸、剥落的油漆、水渍、电线、日常小物件）；低饱和、去色的色调；细腻的胶片颗粒；角色一拍二动画，镜头与光线运动一拍一流畅。
+```
+
+Блок 风格 (STYLE) в видеопромте: `手绘2D成人向动画长片风格：细而均匀的墨线，带轻微的手绘抖动；克制的双色赛璐璐阴影，阴影边缘柔和；精细观察绘制的1970年代伦敦生活化室内背景；低饱和、去色的色调；细腻的胶片颗粒。` — «约7.5头身» и «一拍二动画» идут в 表演 (PERFORMANCE), «镜头与光线运动一拍一流畅» — в 摄影机 (CAMERA).
+
+## STYLE LOCK — English (справка, в промт не идёт)
 
 ```
 Hand-drawn 2D adult animated feature look: realistic adult proportions about 7.5 heads tall, fine even-weight ink linework with a slight hand-made wobble, restrained two-tone cel shading with soft-edged shadow shapes, meticulously observed painted backgrounds of a lived-in 1970s London interior (worn wallpaper, chipped paint, water stains, cables, small everyday objects), subdued desaturated colours, fine film grain; characters animated on twos, camera and light moves smooth on ones.

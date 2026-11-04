@@ -1,57 +1,57 @@
-# SH020 — клип (видеопромт, Seedance 2.x, 8 с, 16:9)
+# SH020 — клип (видеопромт, Seedance 2.x, 8 с, 16:9) · 中文
 
-Референсы: `@image1` = Start Frame SH020 · `@image2` = карта Рут · `@image3` = карта комнаты L1.
+Референсы: `@image1` = Start Frame SH020 · `@image2` = карта Рут · `@image3` = карта комнаты L1. Реплик нет.
 
 ```
-SCENE CONTEXT: 3:06 a.m., a rainy November night in 1977, the ground-floor front room of a worn London council terraced house. Ruth sits alone in her armchair facing the boarded fireplace, drinking tea and listening to the silent house; the camera glides slowly along the bay window behind her.
+场景背景：1977年11月一个下雨的夜里，凌晨3点06分，伦敦一栋破旧的市政联排住宅的一楼前厅。露丝独自坐在扶手椅上，面朝封死的壁炉，喝着茶，倾听寂静的房子；摄影机在她身后沿着凸窗缓慢滑行。
 
-ACTIVE REFERENCES:
-@image1 = the first frame of this shot; composition, objects and drawing style 100% match it.
-@image2 = RUTH card: left panel full-body front without head, center panel full-body back without head, right panel the head; combine head and costume into one person; 38-year-old woman, 1.65 m, slim and tired; long face, faint dark circles, small mole under her LEFT eye; collarbone-length centre-parted brown hair; long bottle-green hand-knitted cardigan over a cream high-neck jumper, brown corduroy trousers, tan felt slippers; thin gold ring on her LEFT ring finger; 100% matches the reference. Use the center panel for her back.
-@image3 = only the room layout behind her.
+参考图：
+@image1 = 本镜头的首帧；构图、物件和画风与其100%一致。
+@image2 = 露丝的角色卡：左栏为无头的正面全身，中栏为无头的背面全身，右栏为头部；把头部和服装合成为同一个人；露丝（RUTH）：38岁女性，身高1.65米，清瘦、疲惫；长脸，淡淡的黑眼圈，她的左眼下方有一颗小痣；齐锁骨的中分棕色头发；奶油色高领毛衣外披一件长款墨绿色手织开衫，棕色灯芯绒长裤，棕褐色毡拖鞋；她的左手无名指戴一枚细金戒指。与参考图100%一致。她的背影使用中栏。
+@image3 = 仅用于她身后的房间布局。
 
-LOCATION MAP: foreground right — net curtain edge of the bay window, rain running down the glass. Midground — Ruth in the green armchair on the left third, seen from behind and to her right; the low teak coffee table in front of her: parchment-shade lamp lit at its left end, the cassette recorder stopped, the black rubber torch. Background — left: sideboard with a record player on the left wall, a small wooden crucifix above it, the hall door ajar on a black gap; centre: boarded fireplace with a round electric clock above it; right: the alcove cupboard door ajar by 4 cm. Light: the lamp at the table, cold streetlight through the bay window on the right. Camera path: along the bay window, moving forward along the right wall.
+空间布局：右侧前景——凸窗纱帘的边缘，雨水顺着玻璃流下。中景——露丝坐在左三分之一处的绿色扶手椅上，从她的身后偏右看过去；她面前的柚木矮咖啡桌：左端的羊皮纸灯罩台灯亮着，卡带录音机已停止，黑色橡胶手电筒。背景——左：左墙边放着唱机的餐具柜，上方挂着一个小木十字架，走廊门虚掩，门缝漆黑；中：封死的壁炉，上方挂着圆形电子钟；右：壁龛储物柜的门虚掩4厘米。光线：桌上的台灯；右侧凸窗透进冷色路灯光。摄影机路径：沿凸窗、贴着右墙移动。
 
-FIRST FRAME / BLOCKING: identical to @image1. Ruth seated, cup of tea in her right hand at chest height, saucer on her left knee in her left hand; she faces the fireplace, into the depth of the frame; the camera is already moving in the first frame.
+首帧与站位：与@image1完全一致。露丝坐着，右手把茶杯端在胸前，左手把茶碟放在左膝上；她面朝壁炉，望向画面纵深；首帧中摄影机已在移动。
 
-FORMAT MODE: one continuous shot, the camera does not cut on its own.
+剪辑模式：一镜到底，摄影机全程不自行切换镜头。
 
-OPTICS: wide shot, the whole seated figure with the room around her; FOV 84°, wide view of the whole room with natural perspective and no edge distortion; deep focus, the room readable from the curtain to the back wall; no drift.
+光学：全景，整个坐着的人物连同她周围的房间；视场角84°，整个房间的广角视野，自然透视，画面边缘干净平直；大景深，从纱帘到后墙都清晰可读；焦点不漂移。
 
-CAMERA: camera at 1.6 m, tilted 8° down, horizon on the upper third line; a true physical glide along the bay window, diagonally forward and to the right, 1.0 m over 8 s at 0.45 km/h, the camera itself travelling, the lens keeps the same direction; eases in over the first 1 s and settles over the last 1 s; level horizon throughout; camera and light moves smooth on ones. End frame: Ruth on the left third, her head on the upper-left third intersection, three light shafts across the right half.
+摄影机：机位高1.6米，向下俯8°，地平线位于上三分线；摄影机本体沿凸窗做真实的物理滑行，相对画面斜向前、向右，8秒移动1.0米，速度0.45千米/小时，镜头朝向保持不变；前1秒缓慢起步，最后1秒平稳停住；地平线全程水平；镜头与光线运动一拍一流畅。结束画面：露丝在左三分之一处，头部位于左上三分线交点，三道光束横贯画面右半部。
 
-ACTION:
-0.0s to 1.0s — Ruth sits still with the cup at her chest; the three light shafts slide slowly across the carpet as the camera moves through the light.
-1.0s to 2.5s — she brings the cup to her lips in a smooth arc and sips; her throat moves as she swallows.
-2.5s to 4.0s — she lowers the cup onto the saucer with a small clink; her eyes go to the stopped cassette recorder on the table. 3.0s to 5.5s — the headlights of a passing bus sweep through the net curtain: the shadows of the window frame and of the armchair stretch long across the left wall, shorten and fade away.
-4.0s to 6.6s — she holds still and listens to the house; her left thumb slowly turns the gold ring on her ring finger once.
-6.6s to 7.0s — a floorboard creaks in the room above: she freezes, the cup stops still on the saucer.
-7.0s to 8.0s — her eyes lift first toward the ceiling and the hall door, her head follows three frames later and is still turning when the shot ends.
+动作：
+0.0秒至1.0秒——露丝端着茶杯静坐；随着摄影机穿过光线，三道光束在地毯上缓缓滑动。
+1.0秒至2.5秒——她沿一道平滑的弧线把茶杯送到唇边，啜了一口；吞咽时喉咙动了一下。
+2.5秒至4.0秒——她把茶杯放回茶碟，发出轻轻一声叮；目光移向桌上已停止的录音机。3.0秒至5.5秒——街上一辆公交车驶过，车灯的光扫过纱帘：窗框和扶手椅的影子在左墙上被拉得很长，随后缩短、消失。
+4.0秒至6.6秒——她一动不动地倾听房子；左手拇指把无名指上的金戒指慢慢转了一圈。
+6.6秒至7.0秒——楼上房间里一块地板吱呀一声：她僵住，茶杯在茶碟上一动不动。
+7.0秒至8.0秒——她的目光先抬向天花板和走廊门，头在三帧之后跟上，镜头结束时头仍在转动。
 
-PERFORMANCE:
-ACTING TASK — RUTH (fully invested in the tactic; seen from behind, the work happens in her head, neck and hands):
-SCENE DIRECTION: get through the night proving the house is only a house.
-MOTIVE: fear of becoming like her mother, who heard things · GOAL: keep this night ordinary: tea, a quiet room, a clean tape · OBSTACLE: the silence is so heavy that every sound demands a name, and one unnamed sound breaks the proof.
-TACTIC, moment to moment:
-— 1.0s — drinks her tea like any evening, to show herself nothing is wrong.
-— 2.5s — checks the stopped recorder like a meter: the log is in order.
-— 4.0s — listens to the house as a landlady listens for pipes, calmly; the thumb on the ring is the only thing she cannot control.
-— 6.6s — the creak: she stops everything to hear where it came from.
-— 7.0s — goes to find the sound with her eyes before she lets herself be afraid.
-(gaze always engaged in the task, never a frozen or glassy stare)
-Involuntary body: her shoulders rise 1 cm with each slow breath every 3.5 s; 1.8s her throat moves on the swallow; 6.6s breath stops for 0.4 s; 7.6s a short inhale through the nose. The cardigan settles 0.4 s after each arm move. Realistic adult proportions about 7.5 heads tall; her body keeps its volume; animated on twos.
+表演：
+表演任务——露丝（全身心投入战术；从背后拍，戏在她的头、颈和手上）：
+场景方向：熬过这一夜，证明这栋房子只是一栋房子。
+动机：害怕变得像她母亲一样“听见东西” · 目标：让这一夜保持平常：一杯茶、安静的房间、干净的录音 · 阻碍：寂静沉重到每个声音都需要一个名字，一个叫不出名字的声音就会毁掉证据。
+战术，逐刻：
+— 1.0秒 ——像任何一个平常的晚上那样喝茶，向自己证明一切正常。
+— 2.5秒 ——像看电表一样检查停着的录音机：记录井然有序。
+— 4.0秒 ——像房东太太听水管那样平静地倾听房子；拇指上的戒指是她唯一控制不住的东西。
+— 6.6秒 ——吱呀声：她停下一切，去听声音从哪里来。
+— 7.0秒 ——先用眼睛去找那个声音，然后才允许自己害怕。
+（目光始终投入在任务中，眼神鲜活，自然眨眼）
+不自主的身体反应：每3.5秒一次缓慢呼吸，肩膀随之抬起1厘米；1.8秒吞咽时喉咙动了一下；6.6秒呼吸停住0.4秒；7.6秒用鼻子短促吸气。每次手臂动作后，开衫在0.4秒后才落定。写实的成人比例，约7.5头身；身体体积保持不变；一拍二动画。
 
-PHYSICS: the cup and saucer have real weight; the tea surface trembles slightly on the freeze; the net curtain hangs still; dust drifts slowly downward through the light shafts.
+物理：茶杯和茶碟有真实的重量；僵住时茶面轻轻颤动；纱帘静静垂着；灰尘在光束中缓缓下落。
 
-LIGHTING: key — the parchment-shade lamp at the left end of the coffee table, 2700K warm amber, a small pool over the table, the cup, her hands and the far left edge of her face, hard falloff; her near right cheek and shoulder stay in shadow with a thin cold rim from the window; fill and rim — cold 6500K blue-green mercury streetlight from outside the bay window on the right, three long shafts through rain-streaked glass and the net curtain, rain-streak shadows trickling down the wallpaper; 3.0s to 5.5s a brief warm 3200K headlight sweep from the street; white balance locked at 4000K; key:fill 6:1; about 45% of the frame in deep shadow, the ceiling and corners darkest.
+灯光：主光——咖啡桌左端的羊皮纸灯罩台灯，2700K暖琥珀色，一小片光池落在桌面、茶杯、她的双手和她脸的远侧左缘，急剧衰减；她靠近镜头的右脸颊和右肩留在阴影中，带一道窗户投来的细冷轮廓光；补光与轮廓光——右侧凸窗外的6500K冷蓝绿色汞灯路灯光，透过有雨痕的玻璃和纱帘形成三道长长的光束，雨痕的影子顺着墙纸往下淌；3.0秒至5.5秒街上车灯短暂扫过的3200K暖光；白平衡锁定在4000K；主补光比6:1；画面约45%处于深阴影中，天花板和墙角最暗。
 
-AUDIO: 0.0s to 8.0s — steady rain on the window glass, the faint hiss of the room; 2.6s — porcelain clink of the cup on the saucer; 3.0s to 5.5s — the low rumble of a bus passing in the street outside; 6.6s — a single dry floorboard creak from the room above. No speech, no words. SFX only, no music.
+音频：0.0秒至8.0秒——持续的雨打窗玻璃声，房间里微弱的底噪；2.6秒——茶杯落在茶碟上的瓷器叮声；3.0秒至5.5秒——街上公交车驶过的低沉轰鸣；6.6秒——楼上房间传来一声干涩的地板吱呀。无对白，无人声。仅音效，无音乐。
 
-STYLE: Hand-drawn 2D adult animated feature look: fine even-weight ink linework with a slight hand-made wobble, restrained two-tone cel shading with soft-edged shadow shapes, meticulously observed painted background of a lived-in 1970s London interior, subdued desaturated colours, fine film grain.
+风格：手绘2D成人向动画长片风格：细而均匀的墨线，带轻微的手绘抖动；克制的双色赛璐璐阴影，阴影边缘柔和；精细观察绘制的1970年代伦敦生活化室内背景；低饱和、去色的色调；细腻的胶片颗粒。
 
-POSITIVE LOCKS: the camera travels only sideways along the window with a level horizon; Ruth stays seated in the armchair for all 8 seconds; the cup stays in her right hand until it rests on the saucer at 2.5s; the gold ring stays on her left hand; the hall door gap and the cupboard gap stay narrow and pitch black; the lamp stays lit; only one person in the room; hand-drawn 2D look in every frame.
+正向锁定：摄影机只沿窗户滑行，地平线保持水平；露丝8秒内始终坐在扶手椅上；茶杯一直在她右手中，直到2.5秒放回茶碟；金戒指始终在她左手上；走廊门缝和储物柜门缝保持窄窄的、漆黑一片；台灯始终亮着；房间里只有一个人；每一帧都是手绘2D画风。
 ```
 
-**Перевод (кратко).** 8 с, камера плавно едет вдоль эркера по диагонали вперёд-вправо на 1,0 м (0,45 км/ч) сквозь три холодных луча; лампа освещает дальнюю левую щёку Рут, ближняя в тени. Рут спиной к нам: пьёт чай (1,0–2,5 с), ставит чашку и смотрит на магнитофон (2,5–4,0 с). Фары автобуса за окном проводят тени по стене (3,0–5,5 с). Она слушает дом и крутит кольцо (4,0–6,6 с). Скрип сверху: замирает на 0,4 с, потом глаза, а за ними голова, поднимаются к двери. Шот обрывается посреди поворота: склейка на действии в SH030.
+**Перевод (кратко).** 8 с. Камера плавно едет вдоль эркера по диагонали вперёд-вправо на 1,0 м (0,45 км/ч) сквозь три холодных луча. Рут спиной к нам: пьёт чай (1,0–2,5 с), ставит чашку и смотрит на магнитофон (2,5–4,0 с). Фары автобуса за окном проводят тени по стене (3,0–5,5 с). Она слушает дом и крутит кольцо (4,0–6,6 с). Скрип сверху: замирает на 0,4 с, потом глаза, а за ними голова, поднимаются к двери; шот обрывается посреди поворота (склейка на действии в SH030). Свет лампы падает на дальнюю левую щёку, ближняя в тени. Реплик нет.
 
-Длина ≈ 6 900 символов. Если платформа обрежет, сокращать в таком порядке: PHYSICS → LOCATION MAP (его дублирует @image1) → якорь @image3. ACTING TASK, ACTION и POSITIVE LOCKS не трогать.
+Если платформа обрежет промт, сокращать в таком порядке: 物理 → 空间布局 (её дублирует @image1) → якорь @image3. 动作, 表演 и 正向锁定 не трогать.

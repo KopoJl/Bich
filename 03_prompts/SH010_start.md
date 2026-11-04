@@ -1,17 +1,15 @@
-# SH010 — Start Frame (промт картинки, A.15)
+# SH010 — Start Frame (промт картинки, A.15) · 中文
 
-Нужен, потому что 2D-стиль модель лучше держит от первого кадра (image-to-video). Модель — gpt-image-2 / Seedream / Nano Banana. Референсы: `@image1` = утверждённая карта локации L1.
+Модель: Seedream (лучше всех понимает китайский). Референсы: `@image1` = утверждённая карта локации L1.
 
 ```
-Start frame of an animated film shot, 16:9. Hand-drawn 2D adult animated feature look: fine even-weight ink linework with a slight hand-made wobble, restrained two-tone cel shading with soft-edged shadow shapes, meticulously observed painted background of a lived-in 1970s London interior, subdued desaturated colours, fine film grain.
-@image1 = only the room layout, wallpaper and furniture of the front room.
-Camera: 0.62 m above the floor, tilted 3.9° down, 50 mm lens, 40° horizontal field of view, no lens distortion; focus on the cassette recorder, the back wall softly blurred.
-Composition: extreme close-up across a low dark scratched teak coffee table at night. LEFT edge: a small desk lamp with a yellowed parchment shade, switched on. Lower-left third: a portable 1970s cassette recorder with a brushed silver-grey top, black piano keys, a small round red recording lamp lit, a three-digit tape counter reading 305 and two tape reels behind a clear window. Beside it on the right: a heavy black rubber torch lying on its side. RIGHT edge: a chipped cream cup of tea with thin steam. Upper-right third, in the background: the hall door in the back wall stands ajar by a 4 cm vertical slit of total black between the cream-painted door edge and its frame, in grey-green floral wallpaper.
-Light: the lamp is the only warm source, a tight amber pool on the left half of the table that falls off hard; the right half of the frame sinks into cold blue darkness; a thin cold blue-green edge from the window behind the camera on the right catches the chrome keys and the rim of the cup. The door slit is the darkest spot in the frame.
-Materials: scratched teak with ring marks, brushed metal with fingerprints, worn rubber, chipped glaze, peeling wallpaper seam.
-No people, no hands, no silhouettes, no faces, no human-shaped reflections or shadows. No text, no labels, no watermark.
+动画电影镜头的首帧，16:9。手绘2D成人向动画长片风格：细而均匀的墨线，带轻微的手绘抖动；克制的双色赛璐璐阴影，阴影边缘柔和；精细观察绘制的1970年代伦敦生活化室内背景；低饱和、去色的色调；细腻的胶片颗粒。
+@image1 = 仅用于前厅的房间布局、墙纸和家具。
+摄影机：离地0.62米，向下俯3.9°，50毫米镜头，水平视场角40°，无镜头畸变；焦点在卡带录音机上，后墙柔和虚化。
+构图：夜晚，越过一张有划痕的深色柚木矮咖啡桌拍摄的大特写。画面左边缘：一盏带泛黄羊皮纸灯罩的小台灯，亮着。左下三分之一处：一台1970年代便携式卡带录音机，拉丝银灰色顶面，黑色琴键式按键，圆形小红色录音指示灯亮着，三位数机械磁带计数器显示“305”，透明窗里有两个磁带盘。它右侧：一支黑色重型橡胶手电筒侧躺着。画面右边缘：一只有缺口的奶油色茶杯，冒着细细的热气。右上三分之一处的背景：后墙上的走廊门虚掩，奶油色门边与门框之间有一道4厘米宽、漆黑一片的竖缝，周围是灰绿色碎花墙纸。
+光线：台灯是唯一的暖光源，在桌子左半边形成一小片紧凑的琥珀色光池，随后急剧衰减；画面右半边沉入冷蓝色的黑暗；摄影机后方右侧窗户的一道细细的冷蓝绿色边光照在镀铬按键和杯沿上。门缝是画面中最暗的地方。
+材质：有杯印的划痕柚木，带指纹的拉丝金属，磨旧的橡胶，有缺口的釉面，翘起的墙纸接缝。
+无人物、无手、无剪影、无人脸、无人形倒影或阴影。除计数器上的“305”外无文字、无标签、无水印。
 ```
 
-**Перевод:** стартовый кадр. Крупный план через журнальный столик ночью: слева лампа с пожелтевшим абажуром, на нижней левой трети магнитофон с горящей красной лампой записи, рядом фонарик, справа чашка чая с паром. В глубине на верхней правой трети — чёрная щель приоткрытой двери, 4 см. Свет: только лампа, тёплое пятно слева, правая половина в синей тьме; щель — самое тёмное место кадра.
-
-Длина: 1 847 символов, укладывается в лимит Buzzy (2000).
+**Перевод.** Стартовый кадр. Камера на 0,62 м, наклон 3,9° вниз, 50 мм (горизонтальный угол 40°). Крупный план через журнальный столик ночью: слева лампа с пожелтевшим абажуром; на нижней левой трети магнитофон с горящей красной лампой записи, счётчик показывает «305»; рядом фонарик; справа чашка чая с паром. В глубине на верхней правой трети — чёрная щель приоткрытой двери, 4 см. Свет: только лампа, тёплое пятно слева, правая половина в синей тьме; щель — самое тёмное место кадра. Людей и рук нет; единственный текст — цифры счётчика.

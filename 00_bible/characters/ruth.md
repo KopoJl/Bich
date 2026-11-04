@@ -4,27 +4,29 @@
 
 **Рост и посадка (для блокаута):** 1,65 м; глаза стоя — 1,53 м; сидя в кресле макушка 1,25 м, глаза 1,13 м.
 
-## CHARACTER LOCK (дословно, коротко — якорь под тегом)
+**Голос:** английский, лондонский выговор рабочего района, тихий и ровный; шёпот близко к микрофону.
+
+## CHARACTER LOCK — 中文 (дословно, якорь под тегом)
 
 ```
-RUTH: 38-year-old woman, 1.65 m, slim and tired; long face, faint dark circles, small mole under her LEFT eye; collarbone-length centre-parted brown hair; long bottle-green hand-knitted cardigan over a cream high-neck jumper, brown corduroy trousers, tan felt slippers; thin gold ring on her LEFT ring finger.
+露丝（RUTH）：38岁女性，身高1.65米，清瘦、疲惫；长脸，淡淡的黑眼圈，她的左眼下方有一颗小痣；齐锁骨的中分棕色头发；奶油色高领毛衣外披一件长款墨绿色手织开衫，棕色灯芯绒长裤，棕褐色毡拖鞋；她的左手无名指戴一枚细金戒指。
 ```
 
-Сторона примет: родинка под ЛЕВЫМ глазом Рут, то есть справа на картинке, когда она смотрит в камеру анфас. Кольцо на ЛЕВОЙ руке, правая рука без колец.
+Перевод: Рут, 38 лет, 1,65 м, худая и усталая; длинное лицо, тени под глазами, родинка под ЛЕВЫМ глазом; каштановые волосы до ключиц с прямым пробором; длинный бутылочно-зелёный кардиган поверх кремового свитера с высоким воротом, коричневые вельветовые брюки, бежевые войлочные тапки; тонкое золотое кольцо на безымянном пальце ЛЕВОЙ руки.
 
-Три узнаваемых признака: длинный бутылочно-зелёный кардиган, родинка под левым глазом, золотое кольцо на левой руке.
+Сторона примет: родинка под левым глазом Рут — справа на картинке, когда она смотрит в камеру. Кольцо на левой руке, правая без колец.
 
-## Промт карты (формат A.9, ≤ 2000 символов)
+## Промт карты (формат A.9)
 
 ```
-Character design sheet, 16:9, warm off-white seamless background, even soft studio light, three panels.
-LEFT: full-body FRONT view of the outfit on a headless figure, neutral A-pose, arms slightly away from the body, empty hands, legs and slippers visible; the figure ends at a neutral mannequin neck stub, no head, no hair.
-CENTER: the same figure from the BACK, same scale and pose, no head, showing the long cardigan falling below the hips, its ribbed hem and a slightly stretched back from years of wear.
-RIGHT: a large head portrait, three-quarter view turned over the shoulder, showing face, eyes, hair from the side and back, the cream high-neck collar and top of the cardigan, about 1.5x the body scale, filling the right third of the sheet.
-Character: 38-year-old woman, slim and tired, realistic adult proportions about 7.5 heads tall, height 1.65 m; pale skin with cool undertone; long face, high cheekbones, faint dark circles, small mole under her LEFT eye (on the right side of the image when she faces the viewer); collarbone-length centre-parted brown hair, a little unwashed, tucked behind her right ear.
-Outfit: long bottle-green hand-knitted cardigan #3C4F3A with wooden buttons, cream high-neck jumper #D8CFBE, brown corduroy flared trousers #5B4632, worn tan felt slippers #A88A64; thin gold ring on her LEFT ring finger, right hand bare.
-Style: Hand-drawn 2D adult animated feature look: realistic adult proportions about 7.5 heads tall, fine even-weight ink linework with a slight hand-made wobble, restrained two-tone cel shading with soft-edged shadow shapes, subdued desaturated colours, fine film grain.
-Identical costume, colors, proportions and skin tone in all panels. No text, no labels, no captions, no watermark, no extra figures.
+角色设定表，16:9，暖白色无缝背景，均匀柔和的影棚光，三个分栏。
+左栏：服装的正面全身图，穿在一个无头的人体上，中性A字站姿，双臂略微离开身体，双手空着，双腿和拖鞋可见；人体在领口处结束，是一个中性的人台颈部截面，没有头，没有头发。
+中栏：同一个人体的背面，比例和姿势相同，没有头，展示垂到臀部以下的长开衫、罗纹下摆，以及因多年穿着而略微撑大的后背。
+右栏：大幅头部肖像，四分之三侧面，从肩膀上方回望，展示脸、眼睛、侧面和后面的头发、奶油色高领和开衫上沿，约为身体比例的1.5倍，占满画面右侧三分之一。
+角色：38岁女性，清瘦、疲惫，写实的成人比例约7.5头身，身高1.65米；苍白偏冷调的皮肤；长脸，高颧骨，淡淡的黑眼圈，她的左眼下方有一颗小痣（她面向观众时位于画面右侧）；齐锁骨的中分棕色头发，略显油腻，别在她的右耳后。
+服装：长款墨绿色手织开衫 #3C4F3A，木纽扣；奶油色高领毛衣 #D8CFBE；棕色灯芯绒喇叭裤 #5B4632；磨旧的棕褐色毡拖鞋 #A88A64；她的左手无名指戴一枚细金戒指，右手手指光洁。
+风格：手绘2D成人向动画长片风格：写实的成人比例，约7.5头身；细而均匀的墨线，带轻微的手绘抖动；克制的双色赛璐璐阴影，阴影边缘柔和；低饱和、去色的色调；细腻的胶片颗粒。
+所有分栏中服装、颜色、比例和肤色完全一致。无文字、无标签、无说明、无水印、无多余人物。
 ```
 
 Проверка перед утверждением: родинка на нужной стороне; кольцо на левой руке (на передней панели это правая сторона картинки); кардиган одной длины спереди и сзади; один тон кожи у головы и рук.

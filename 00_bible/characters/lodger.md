@@ -6,23 +6,27 @@
 
 **Размеры (для блокаута):** рост 2,3 м. В дверном проёме (2,0 м) он сутулится, голова на 1,95 м. Под потолком комнаты (2,5 м) стоит почти упираясь макушкой.
 
-## CHARACTER LOCK
+**Голос:** своего голоса нет. Шёпот — это замедленная запись голоса Рут (английский).
+
+## CHARACTER LOCK — 中文
 
 ```
-THE LODGER: impossibly thin figure 2.3 m tall, narrow shoulders, arms reaching below the knees, long grey-white fingers; wet belted grey-green 1970s raincoat dripping water; head tilted 80° to his left; face always lost in shadow except one round pale eye glint on his left side.
+房客（THE LODGER）：极其瘦削的人形，身高2.3米，窄肩，双臂垂过膝盖，灰白色的修长手指；湿透的、系腰带的1970年代灰绿色风衣，不断滴水；头向他的左侧歪80°；脸始终隐没在阴影中，只在他的左侧有一点圆形的苍白眼睛反光。
 ```
+
+Перевод: Жилец — невероятно худая фигура ростом 2,3 м, узкие плечи, руки ниже колен, длинные серо-белые пальцы; мокрый подпоясанный серо-зелёный плащ 1970-х, с него капает; голова наклонена на 80° к его левому плечу; лицо всегда в тени, кроме одной круглой бледной искры глаза слева.
 
 ## Промт карты (A.9)
 
 ```
-Character design sheet, 16:9, light grey seamless background, even soft studio light, three panels.
-LEFT: full-body FRONT view of the outfit on a headless figure, neutral A-pose, very long arms slightly away from the body, empty hands with long grey-white fingers, legs and wet black shoes visible; the figure ends at a neutral mannequin neck stub, no head.
-CENTER: the same figure from the BACK, same scale and pose, no head, showing the raincoat belt tied at the back, a long back vent, water running down the coat in dark streaks.
-RIGHT: a large head view, three-quarter view, the head tilted 80° to his left on a long thin neck; the face is a smooth area of deep shadow with only one round pale grey-green eye glint #C9CFC4 on his left side; thin wet dark hair stuck to the skull; raincoat collar turned up; about 1.5x the body scale, filling the right third of the sheet.
-Character: impossibly thin humanoid figure 2.3 m tall, about 9 heads tall, narrow shoulders, arms reaching below the knees.
-Outfit: wet belted grey-green 1970s raincoat #4A5048 reaching mid-calf, darker where soaked, grey trousers #3A3C38, wet black leather shoes.
-Style: Hand-drawn 2D adult animated feature look, fine even-weight ink linework with a slight hand-made wobble, restrained two-tone cel shading with soft-edged shadow shapes, subdued desaturated colours, fine film grain.
-Identical costume, colors and proportions in all panels. No text, no labels, no captions, no watermark, no extra figures.
+角色设定表，16:9，浅灰色无缝背景，均匀柔和的影棚光，三个分栏。
+左栏：服装的正面全身图，穿在一个无头的人体上，中性A字站姿，极长的双臂略微离开身体，双手空着，灰白色的修长手指，双腿和湿透的黑色皮鞋可见；人体在领口处结束，是一个中性的人台颈部截面，没有头。
+中栏：同一个人体的背面，比例和姿势相同，没有头，展示风衣在背后系起的腰带、长长的后开衩，以及雨水顺着风衣流下的深色水痕。
+右栏：大幅头部图，四分之三侧面，头在细长的脖子上向他的左侧歪80°；脸是一片光滑的深阴影，只在他的左侧有一点圆形的苍白灰绿色眼睛反光 #C9CFC4；稀薄湿透的深色头发贴在头骨上；风衣领子竖起；约为身体比例的1.5倍，占满画面右侧三分之一。
+角色：极其瘦削的人形，身高2.3米，约9头身，窄肩，双臂垂过膝盖。
+服装：湿透的、系腰带的1970年代灰绿色风衣 #4A5048，长及小腿中部，湿透处颜色更深；灰色长裤 #3A3C38；湿透的黑色皮鞋。
+风格：手绘2D成人向动画长片风格：细而均匀的墨线，带轻微的手绘抖动；克制的双色赛璐璐阴影，阴影边缘柔和；低饱和、去色的色调；细腻的胶片颗粒。
+所有分栏中服装、颜色和比例完全一致。无文字、无标签、无说明、无水印、无多余人物。
 ```
 
-Для видеопромтов есть отдельная **карта проекции** (A.10 п. 11): тень Жильца на обоях в той же позе, что он сам в этом шоте. Её делаем для SH070, когда будет понятна поза.
+Для видеопромтов есть отдельная **карта проекции** (A.10 п. 11): тень Жильца на обоях в той же позе, что он сам в этом шоте. Её делаем, когда будет понятна поза.
