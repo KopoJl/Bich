@@ -4,8 +4,8 @@
 
 | Карта | Вариант | Ссылка | Статус |
 |---|---|---|---|
-| Рут | v5 (по образцу, лицо строго анфас) | https://res-prod.buzzy.now/file-service/5cd46c99-4682-44e7-a1b8-2788cd89dd7d.png | ждёт проверки |
-| Жилец | v5 (по образцу, лицо и тело анфас) | https://res-prod.buzzy.now/file-service/a66ee75f-da3c-4c0a-ac39-5cda3b9ec9b1.png | ждёт проверки |
+| Рут | v5 (по образцу, лицо строго анфас) | https://res-prod.buzzy.now/file-service/5cd46c99-4682-44e7-a1b8-2788cd89dd7d.png | проверено: всё верно, кроме кольца на обеих руках → правка v5e |
+| Жилец | v5 (по образцу, лицо и тело анфас) | https://res-prod.buzzy.now/file-service/a66ee75f-da3c-4c0a-ac39-5cda3b9ec9b1.png | проверено: силуэт и глаз верно; пышная причёска, наклон ~20° не в ту сторону, руки выше колен, крупный план в 3/4 → правка v5e |
 | Рут | v4 (лицо в 3/4, отменён) | https://res-prod.buzzy.now/file-service/71843398-f1d8-4b0c-9939-dd1da92cfad8.png | ждёт проверки |
 | Жилец | v4 (лицо в 3/4, отменён) | https://res-prod.buzzy.now/file-service/bb2dd09f-958f-4ebf-bfe2-e568889f8394.png | ждёт проверки |
 | Рут | v3 (3 панели, отменён) | https://res-prod.buzzy.now/file-service/6ef1ae57-6da0-43ba-b09f-bb3245ed8c9e.png | ждёт проверки |
