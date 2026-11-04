@@ -4,15 +4,17 @@
 
 | Карта | Вариант | Ссылка | Статус |
 |---|---|---|---|
-| Рут | v1 | https://res-prod.buzzy.now/file-service/68bd0dff-480b-4323-8b1b-85aca0aa3016.png | ждёт проверки |
-| Рут | v2 | https://res-prod.buzzy.now/file-service/f09c62ec-7ad6-4279-add5-b7783886df29.png | ждёт проверки |
-| Жилец | v1 | https://res-prod.buzzy.now/file-service/9dcd58e2-3e0a-4eaa-a8f1-a6b7be67063e.png | ждёт проверки |
-| Жилец | v2 | https://res-prod.buzzy.now/file-service/68949f36-982b-492e-8061-7f69cde0b9ec.png | ждёт проверки |
+| Рут | v3 (новый формат) | https://res-prod.buzzy.now/file-service/6ef1ae57-6da0-43ba-b09f-bb3245ed8c9e.png | ждёт проверки |
+| Жилец | v3 (новый формат) | https://res-prod.buzzy.now/file-service/cc569d8c-a0b1-4945-b340-27866af9e5f5.png | ждёт проверки |
+| Рут | v1 (старый формат A.9) | https://res-prod.buzzy.now/file-service/68bd0dff-480b-4323-8b1b-85aca0aa3016.png | заменён форматом пользователя |
+| Рут | v2 (старый формат A.9) | https://res-prod.buzzy.now/file-service/f09c62ec-7ad6-4279-add5-b7783886df29.png | заменён форматом пользователя |
+| Жилец | v1 (старый формат A.9) | https://res-prod.buzzy.now/file-service/9dcd58e2-3e0a-4eaa-a8f1-a6b7be67063e.png | заменён форматом пользователя |
+| Жилец | v2 (старый формат A.9) | https://res-prod.buzzy.now/file-service/68949f36-982b-492e-8061-7f69cde0b9ec.png | заменён форматом пользователя |
 
 ## Чек-лист утверждения (A.9 + B.3)
 
 **Обе карты**
-1. Три панели: тело спереди без головы · тело сзади без головы · голова крупно справа.
+1. Три панели на сером фоне: в полный рост спереди (с головой) · в полный рост сзади · лицо и плечи крупно.
 2. Спереди и сзади один и тот же костюм, один масштаб, одна поза.
 3. Нет текста, подписей, водяных знаков, лишних фигур.
 4. Рисованный 2D-стиль, не фото и не 3D.
