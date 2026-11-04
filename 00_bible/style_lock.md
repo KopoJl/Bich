@@ -1,0 +1,47 @@
+# Style Lock, палитра, Light Lock
+
+## STYLE LOCK (копировать дословно в каждый промт)
+
+```
+Hand-drawn 2D adult animated feature look: realistic adult proportions about 7.5 heads tall, fine even-weight ink linework with a slight hand-made wobble, restrained two-tone cel shading with soft-edged shadow shapes, meticulously observed painted backgrounds of a lived-in 1970s London interior (worn wallpaper, chipped paint, water stains, cables, small everyday objects), subdued desaturated colours, fine film grain; characters animated on twos, camera and light moves smooth on ones.
+```
+
+В видеопромте Style Lock раскладывается по блокам (S.3 `video-prompt-profile`):
+- STYLE: первое предложение целиком;
+- PERFORMANCE: `realistic adult proportions about 7.5 heads tall` + `animated on twos`;
+- CAMERA: `camera and light moves smooth on ones`.
+
+Признаки, которые держат «кон-овский» вид без имени режиссёра:
+1. Взрослые пропорции и обыкновенные, не «красивые» лица.
+2. Подсмотренная бытовая деталь: провод от лампы, чашка со сколом, пятно на обоях.
+3. Граница яви и восприятия не объявляется: склейки по форме, по тени и по фактуре; аномалия выглядит так же буднично, как быт.
+
+## Палитра 60/30/10 (бриф и проверка; в промт идёт через материалы и свет)
+
+| Доля | Цвет | HEX | Где живёт |
+|---|---|---|---|
+| 60 % | мёртвый сине-сланцевый | `#2B3640` | ночная тьма комнаты, тени, коридор |
+| 30 % | грязно-серый / болотно-зелёный | `#55574F` / `#3E4A3B` | обои, мебель, плащ Жильца, кардиган Рут |
+| 10 % | тёплый янтарь | `#D79A3E` | настольная лампа, отблеск на чашке, кожа Рут у лампы |
+
+Исключение с причиной: в SH140 (рассвет) акцентом становится красный бок даблдекера `#A8322D`: обычный мир вернулся.
+
+## LIGHT LOCK (одинаков во всех шотах комнаты)
+
+```
+LIGHT LOCK: key = small desk lamp with a yellowed parchment shade standing on the LEFT (west) end of the coffee table in front of Ruth's armchair, 40 W bulb at 0.70 m height, 2700K warm amber, lights her face from below and in front; fill/rim = cold mercury-vapour streetlamp outside the east bay window, 7 m away at 5 m height, 6500K blue-green, falling through rain-streaked glass and a net curtain in three long shafts; key:fill 6:1; white balance locked at 4000K.
+```
+
+Изменения только с названной причиной:
+- **Лампа гаснет** (SH040, SH080): уличный фонарь становится единственным источником, key:fill → 10:1, всё тёплое уходит из кадра.
+- **Коридор** (SH100, SH110): единственный ключ — фонарик Рут (холодный 5000K, узкий луч 15°); контровой свет — фонарь из комнаты через дверной проём.
+- **Рассвет** (SH140): ровный пасмурный дневной свет 6500K из того же эркера, key:fill 2:1.
+
+## Доля тьмы по проходам (структура 9, петля)
+
+| Проход | Шоты | Тьма в кадре | Камера и свет |
+|---|---|---|---|
+| 1 — явь | SH010–SH040 | ≈ 45 % | горизонт ровный, без парящей и ручной камеры; детальный быт читается |
+| 2 — сдвиг | SH050–SH080 | ≈ 65 % | голландский угол включён, подглядывание, парящая камера, тени двигаются сами |
+| 3 — паника | SH090–SH135 | ≈ 75 % | ручная камера с фонариком, whip pan, облёт силуэта |
+| рассвет | SH140 | ≈ 20 % | снова явь, но часы показывают 03:06 |
