@@ -12,7 +12,7 @@ CLIPS = [
  ("SH040a", T+"SH040_take1.mp4",   0.90,  2.80, None,                     "вход поздно: реле через 0,7 с"),
  ("EYE",    "../00_bible/approved/SH040_eye_insert_centered.png", 0, 0.42, ("push",1.00,1.04), "match cut по форме"),
  ("SH040b", T+"SH040_take1.mp4",   3.20,  4.10, None,                     "свет гаснет"),
- ("BLACK",  None,                  0.00,  0.30, None,                     ""),
+ ("TITLE",  "../08_titles/title.png", 0.00, 3.20, ("push",1.00,1.015),   "заглавный титр после холодного пролога"),
  # ПРОХОД 2 — сдвиг
  ("SH050",  T+"SH050_take1.mp4",   1.90,  4.85, ("pan",1.06,0.85,0.35),   "подглядывающая панорама; выход на нажатии клавиши"),
  ("SH060",  T+"SH060_take3.mp4",   0.40,  5.40, None,                     "PLAY на первом кадре; спуск к лицу"),
@@ -37,9 +37,24 @@ CLIPS = [
  ("SH135",  T+"SH135_take1.mp4",   0.50,  5.50, ("push",1.00,1.04),       "после; наплыв 2,5 с в SH140"),
  ("SH140",  T+"SH140_take1.mp4",   0.00,  5.80, None,                     "рассвет, часы 03:06→03:07"),
  ("BLACK3", None,                  0.00,  1.00, None,                     "SMASH CUT в чёрное"),
+ ("CREDITS","../08_titles/credits.png", 0.00, 6.00, None,              "финальные титры"),
 ]
 DISSOLVE = ("SH135", "SH140", 2.5)   # наплыв между этими клипами, длительность, с
-FADE_OUT = {"SH040b": 0.5, "SH070": 0.6}   # затемнение в конце клипа, с
+FADE_OUT = {"SH040b": 0.5, "SH070": 0.6, "TITLE": 0.7, "CREDITS": 1.0}   # затемнение в конце клипа, с
+FADE_IN = {"TITLE": 0.8, "CREDITS": 1.0}
+
+# ---- грейдинг: образ прохода + точечная правка оттенка (ночь — сине-зелёная, без фиолетового)
+P1 = "eq=contrast=1.04:saturation=0.95,colorbalance=rs=-0.02:gs=0.01:bs=0.03:rh=0.03:gh=0.01:bh=-0.02"
+P2 = "eq=contrast=1.04:saturation=0.9,colorbalance=rs=-0.02:gs=0.01:bs=0.03"
+P3 = "eq=contrast=1.03:saturation=0.86,colorbalance=rs=-0.02:bs=0.03,curves=master='0/0.012 1/1'"
+DAWN = "eq=contrast=1.03:saturation=0.85,colorbalance=rs=-0.01:bs=0.02:rh=0.02:gh=0.01"
+DEMAGENTA = ",colorbalance=gs=0.015:gm=0.02"   # для шотов с оттенком > 270°
+GRADE = {c: P1 for c in ["SH010","SH020","SH030","SH040a","EYE","SH040b"]}
+GRADE.update({c: P2 for c in ["SH050","SH060","SH070","SH080"]})
+GRADE.update({c: P3 for c in ["SH090","SH100a","SLIP1","SLIP2","SH100b","SH100c","SH110a","SH110b","SH115","SH120","SH125","SH130","SH135"]})
+GRADE["SH140"] = DAWN
+for c in ["EYE","SH080","SH120"]:   # заметный фиолетовый (оттенок 290–300°)
+    GRADE[c] += DEMAGENTA
 WHIP_BLUR_FRAMES = {"SH110b": 4}           # горизонтальный смаз на первых кадрах
 
 def timeline():
