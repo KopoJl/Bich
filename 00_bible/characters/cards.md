@@ -67,3 +67,5 @@
 | SH040 | шаг 1 | gpt-image-2, реф. L1-e | https://res-prod.buzzy.now/file-service/f34ddbe1-86fd-494c-9b8d-f89e93927474.png | композиция и время |
 | SH040 | шаг 2 | Seedream 5.0, композиция шага 1 + рисовка L1-e | https://res-prod.buzzy.now/file-service/be876a46-7692-4a03-8e6b-f9d405ed2abf.png | **УТВЕРЖДЁН**: 03:06 (минутная ≈ 36°, часовая на 3), часы в центре кадра, холодная палитра как в SH030 |
 | SH040 | вставка «глаз» | Seedream 5.0, реф. карта Жильца + L1-e | https://res-prod.buzzy.now/file-service/43f6ebd0-a322-45f0-bf5c-e3270b927240.png | **УТВЕРЖДЁН** после центровки: глаз был на (995; 480), центр кадра (1000; 552) → масштаб 115 % + кроп, глаз на (1001; 552) — `00_bible/approved/SH040_eye_insert_centered.png` |
+| SH050 | шаг 1 | gpt-image-2, реф. L1-e + карта Рут | https://res-prod.buzzy.now/file-service/8d95f4af-f825-496e-a3fd-ae66623519e7.png | композиция |
+| SH050 | шаг 2 | Seedream 5.0, композиция шага 1 + рисовка L1-e + карта Рут | https://res-prod.buzzy.now/file-service/971bdfbd-1612-4d2f-895e-c3acb568402a.png | ждёт проверки |
