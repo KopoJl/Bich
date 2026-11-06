@@ -5,7 +5,7 @@
 Счётчик «306» убран: в 720p цифры не читаются (урок SH050).
 Карта Рут — v5e-sock (решение пользователя).
 
-Референсы (строго в этом порядке): `@image1` = старт SH130 v1e (хватка, без когтей) — https://res-prod.buzzy.now/file-service/16afcf7c-b246-46af-b44e-690af876e66d.png · `@image2` = карта Рут v5e-sock — https://res-prod.buzzy.now/file-service/bfa49035-7c82-4753-8b82-71c0d8914aa6.png · `@image3` = карта Жильца v6 — https://res-prod.buzzy.now/file-service/333a48d7-b19b-49ec-a7b7-b664ba667429.png
+Референсы (строго в этом порядке): `@image1` = старт SH130 v1f (хватка, без когтей, длинные пальцы) — https://res-prod.buzzy.now/file-service/70828a6f-10c3-4117-a6e5-7ba4fcaba592.png · `@image2` = карта Рут v5e-sock — https://res-prod.buzzy.now/file-service/bfa49035-7c82-4753-8b82-71c0d8914aa6.png · `@image3` = карта Жильца v6 — https://res-prod.buzzy.now/file-service/333a48d7-b19b-49ec-a7b7-b664ba667429.png
 
 ```
 场景背景：1977年11月一个下雨的夜里，凌晨3点06分，伦敦一栋破旧的市政联排住宅的一楼前厅。房客用长手指提着露丝的录音机，录音机还在放她自己的声音。露丝伸手去拿磁带，要毁掉这份录音。
