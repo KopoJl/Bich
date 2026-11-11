@@ -42,3 +42,8 @@ No people, no silhouettes, no faces, no human figures, no human-shaped reflectio
 ```
 
 Проверка: направление света на картах совпадает с Light Lock (ночник слева у изголовья, холод из окна справа; на станции лампы сверху).
+
+## Статус карт локаций (GPT image 2.6 sunburst, 16:9)
+- `cards/loc_station_v1.png` — кандидат. Заметка: фактура грязи и ржавчины чуть реалистичнее персонажей; яркая полоса отражений в переходе. Buzzy: https://res-prod.buzzy.now/file-service/5318c9f6-a6a2-4a14-b356-5ab40298fb83.png
+- `cards/loc_bedroom_v1.png` — отклонена: кораблики ровной сеткой по всему полу (признак «слопа»).
+- `cards/loc_bedroom_v1e.png` — правка: куча корабликов у кровати, несколько на одеяле, проход от двери свободен. Кандидат. Buzzy: https://res-prod.buzzy.now/file-service/c55e8c1d-6111-4b02-9daf-b2df85968034.png

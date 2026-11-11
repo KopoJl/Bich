@@ -76,3 +76,6 @@ Prop design sheet, 16:9, warm off-white seamless background, even soft studio li
 - `cards/willa_v1e.png` — Уилла v1 + правка «нейтральное лицо». Кандидат на утверждение. Buzzy: https://res-prod.buzzy.now/file-service/82a9c541-7965-4dbf-b44f-13473d16db0f.png
 - `cards/pip_v2e.png` — Пип v2 + правка «нейтральное лицо, волосы тёмно-рыжие как у сестры». Кандидат на утверждение. Buzzy: https://res-prod.buzzy.now/file-service/a9567744-ae34-4bf1-a928-d93458819feb.png
 - Отклонены: willa_v2 (застёжки-палочки вместо круглых), pip_v1 (подвёрнутые манжеты, другой язык лица).
+- `cards/willa_pajamas_v1.png` — Уилла в пижаме (правка v1e, GPT image 2.6 sunburst). Лицо, заколка, пропорции совпали. Кандидат. Buzzy: https://res-prod.buzzy.now/file-service/84016295-cf96-4007-9da3-99fd35667560.png
+- `cards/boat_v1.png` — лист кораблика (4 вида, звезда на боку). Кандидат. Buzzy: https://res-prod.buzzy.now/file-service/958f9589-0766-4ecf-b0aa-92bd12e33c50.png
+- Утверждены пользователем: willa_v1e, pip_v2e (11.11.2026).
