@@ -1,8 +1,8 @@
-# SH010 — клип Seedance 2.5 (720p, 16:9, 7 с генерации; в монтаж 0.0–6.0)
+# SH010 — клип Seedance 2.5 (720p, 9:16, 7 с генерации; в монтаж 0.0–6.0) — версия 2 (вертикаль)
 
 Референсы (порядок загрузки): @image1 = утверждённый Start Frame SH010; @image2 = карта WILLA (плащ); @image3 = карта PIP.
 
-Настройки: Seedance 2.5, режим omni_reference, 7 с (целое число, диапазон 4–30), 720p, 16:9, generate_audio = on. Промт 7038 символов при лимите 10000. В Higgsfield Start Frame подаётся ролью `start_image`; в Buzzy у Seedance 2.5 первого кадра нет, там @image1 работает только как референс композиции.
+Настройки: Seedance 2.5, режим omni_reference, 7 с (целое число, диапазон 4–30), 720p, 9:16, generate_audio = on. Промт 7292 символов при лимите 10000. В Higgsfield Start Frame подаётся ролью `start_image`; в Buzzy у Seedance 2.5 первого кадра нет, там @image1 работает только как референс композиции.
 
 ```
 SCENE CONTEXT: Night, a flooded old metro platform. A girl on the platform side holds a closing bedroom door set into the tiled wall and pulls her little brother by the wrist through the gap; he stands inside a warm room and pushes a paper boat toward her.
@@ -12,15 +12,15 @@ ACTIVE REFERENCES:
 @image2 = WILLA: 9-year-old girl, 1.30 m, about 4 heads tall, round face, large dark-brown eyes, freckles across the nose, chin-length dark auburn bob, small gold star hair clip on her LEFT temple, glossy mustard-yellow raincoat with big round toggles, navy rubber boots. Soaked, hair stuck to her cheeks. 100% matches the reference.
 @image3 = PIP: 6-year-old boy, 1.10 m, about 3.5 heads tall, round face, big ears, large dark-brown eyes, gap in his front teeth, messy dark auburn hair with a cowlick, oversized moss-green knitted cardigan with sleeves past his fingertips, cream-and-rust striped pajamas, grey wool socks. Dry, inside the warm room. 100% matches the reference.
 
-LOCATION MAP: foreground — still dark water 15 cm deep over the platform tiles; midground — the cream-white tiled wall with the pale-blue wooden door hinged on its right side, open toward the platform by 40 cm, a heavy door-closer arm at its top pulling it shut; background left — the dark platform receding under rows of ceiling tubes. Camera on the platform side, left of the door. Light comes from the gap (warm) and from the ceiling (cold).
+LOCATION MAP (vertical frame): bottom — still dark water 15 cm deep over the platform tiles; middle — the cream-white tiled wall with the pale-blue wooden door, open toward the platform by 40 cm, its gap a tall bright vertical strip center-right; top — the door-closer arm pulling the leaf shut and rows of cold ceiling tubes. Camera on the platform side, 1.5 m behind and left of Willa. Light comes from the gap (warm) and from the ceiling (cold).
 
-FIRST FRAME / BLOCKING: Willa on the left third, body facing screen-right, leaning back in one long diagonal, LEFT hand on the free edge of the door leaf, RIGHT hand reaching into the gap toward Pip's RIGHT wrist. Pip on the right third inside the gap, facing screen-left, his LEFT hand braced on the door frame, his RIGHT hand holding the white paper boat with the gold star out toward her. Both move from the first frame. Strong visual silhouette: her pulling arm and leaning body read as one clear diagonal against the bright gap.
+FIRST FRAME / BLOCKING: Willa in the foreground on the left, 1.5 m from camera, her body partly cut by the left frame edge, facing the gap, leaning back in one long diagonal, LEFT hand on the free edge of the door leaf, RIGHT hand reaching into the gap toward Pip's RIGHT wrist; her face on the left third, upper part of the frame. Pip deeper, 2.2 m from camera, full figure inside the gap, facing her, his face in the upper right, his LEFT hand braced on the door frame, his RIGHT hand holding the white paper boat with the gold star out toward her. Both move from the first frame. Strong visual silhouette: her pulling arm reads as one clear diagonal from her face to the bright vertical gap.
 
 FORMAT MODE: one continuous shot, the camera does not cut on its own.
 
-OPTICS: full shot, FOV 63°, focus on the gap where their hands meet, the far platform softly out of focus; horizon on the upper third line.
+OPTICS: vertical 9:16, Willa medium long shot in the foreground, Pip full figure in the gap behind her, FOV 63°, focus on the gap where their hands meet, the far platform softly out of focus; horizon on the upper third line.
 
-CAMERA: at 1.0 m, 2.6 m from Willa, tilted slightly down, slow drifting handheld: long lazy waves of 2–3 cm, never a fast jitter; the camera only slows down, it never fully stops.
+CAMERA: at 1.0 m, 1.5 m from Willa, tilted 10° down, slow drifting handheld: long lazy waves of 2–3 cm, never a fast jitter; the camera only slows down, it never fully stops.
 
 ACTION:
 0.0s to 0.3s — Willa sinks her hips down and back, weight onto her heels.
@@ -62,7 +62,7 @@ AUDIO: SFX only, no music, no speech, no words. Low hum of the tubes and drippin
 
 STYLE: polished family-friendly 3D animation, appealing rounded proportions, tactile but clean materials, premium cinematic 3D lighting, restrained color harmony, original character design.
 
-OUTPUT SETTINGS: 16:9, 720p, 24 fps, real-time speed.
+OUTPUT SETTINGS: vertical 9:16, 720p, 24 fps, real-time speed.
 
 POSITIVE LOCKS: Willa's raincoat stays mustard-yellow and the gold star clip stays on her LEFT temple in every frame; Pip stays inside the room behind the door line the whole shot; the paper boat stays one single boat, white with a gold star; the door stays the same pale-blue door; five fingers on every hand.
 ```

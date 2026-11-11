@@ -1,130 +1,142 @@
-# Раскадровка «Последняя дверь» — 8 шотов, 45.0 с, 16:9, 720p, 24 fps
+# Раскадровка «Последняя дверь» — 8 шотов, 45.0 с, **9:16**, 720p, 24 fps
+
+Версия 2: формат сменён с 16:9 на 9:16 (решение пользователя). Вся геометрия пересчитана по A.17: кадр на сенсоре 20.25 × 36 мм, d = H·f / (0.36·P), наклон на трети θ = atan(6/f), горизонтальный угол 2·atan(10.125/f). Ступени FOV для видео (S.4) не меняются: это диагональ, она одинакова в 16:9 и 9:16.
+
+## Что меняет вертикаль
+- **Ширина кадра меньше вдвое:** двое детей рядом в полный рост уже не помещаются. Отношения строятся **глубиной и этажами**: один ближе, другой дальше; одно лицо внизу, другое вверху.
+- **Дверь — естественная вертикаль.** Щель двери в SH010 и коридор в SH030 в вертикали работают лучше, чем в 16:9.
+- **Безопасная зона Shorts/Reels/TikTok:** главное выше 33% высоты от низа и левее 85% ширины. Нижнюю треть закрывают подпись и кнопки. Для каждого шота ниже посчитано, где главная точка.
+- Карты персонажей, реквизита и локаций остаются 16:9: это референсы места и внешности, а не кадры. В 16:9 на листе больше информации. Кадры (Start Frame, клипы) — 9:16.
 
 ## Бриф
-- Цель: за 45 с перевернуть смысл первого кадра без единого слова.
-- Настроение: хук — физическая борьба (интенсивность 4); раскрытие — тишина и сдержанность (интенсивность 2).
-- Палитра и Light Lock — `00_bible/style_lock.md`. Холод = потерянность, тепло = дом.
-- Ось 180°: на станции — линия «Уилла ↔ дверь», камера на стороне платформы; Уилла смотрит и движется вправо по экрану (к дому). В детской — линия «Уилла ↔ Пип/кровать»: Уилла справа смотрит влево, кровать и Пип слева.
-- STRUCTURE / HOOK — `01_script/script.md`.
-- Блокаут: **не нужен по умолчанию** — нет сложных пролётов и массовки. Стратегия A: карты + Start Frame там, где сложная расстановка (SH010). Если SH030 (follow) плывёт по камере — блокаут в режиме «Кубы» только для него.
+- Цель, настроение, палитра, Light Lock — без изменений (`00_bible/style_lock.md`).
+- Ось 180°: на станции линия «Уилла ↔ дверь», камера на стороне платформы; в детской линия «Уилла ↔ Пип/кровать». В вертикали горизонтальных пробегов почти нет, поэтому направление держится в основном взглядом.
+- STRUCTURE / HOOK — `01_script/script.md` (хук в первые 2 с: щель двери, её рука на его запястье, кораблик).
+- Блокаут не нужен по умолчанию (стратегия A: карты + Start Frame для SH010).
 
 ## Shot list
 
-| SH | Время | Длит. | План | Объектив / FOV | Ракурс, высота | Движение камеры | Склейка OUT (тип · ориентир) |
+| SH | Время | Длит. | План | Объектив / FOV | Высота, наклон | Движение | Склейка OUT (тип · ориентир) |
 |---|---|---|---|---|---|---|---|
-| 010 | 0.0–6.0 | 6.0 | FS | 35 мм / 63° | на уровне детей, 1.0 м, наклон 5.5° вниз | дрейфующий handheld | HARD CUT на действии · ладонь бьёт в закрытую дверь → ладонь бьёт в кафель; звук удара мостом |
-| 020 | 6.0–11.0 | 5.0 | WS | 28 мм / 63° | сверху, 1.6 м, 6.9° вниз | статика | HARD CUT на действии · первый шаг Уиллы вправо |
-| 030 | 11.0–16.0 | 5.0 | MS→MLS (follow) | 35 мм / 63° | 1.0 м, 5.5° вниз | follow сзади 3 км/ч | HARD CUT на действии · дверь распахивается, Уилла переступает порог (обратная точка) |
-| 040 | 16.0–22.0 | 6.0 | MLS | 35 мм / 63° | 1.0 м, 5.5° вниз | статика | HARD CUT по взгляду · её глаза уходят влево на подушку |
-| 045 | 22.0–27.0 | 5.0 | CU двух лиц | 50 мм / 47° | 0.75 м, 0° | статика + перевод фокуса | HARD CUT на действии · рука Пипа входит в кадр к ладони |
-| 050 | 27.0–34.0 | 7.0 | ECU рук | 85 мм / 29° | 1.0 м, 35° вниз | статика | MATCH CUT · сомкнутые пальцы с корабликом в той же точке экрана |
-| 060 | 34.0–40.0 | 6.0 | CU ладонь → лицо | 50 мм / 47° | 0.9 м | медленный tilt вверх 15° за 2 с | DISSOLVE 1 с · закрытые глаза призрака → закрытые глаза спящей |
-| 070 | 40.0–45.0 | 5.0 | MCU двоих | 50 мм / 47° | 0.8 м, 0° | статика | FADE to black 1 с |
+| 010 | 0.0–6.0 | 6.0 | Уилла MLS на переднем плане + Пип FS в щели | 35 мм / 63° | 1.0 м, 9.7° вниз | дрейфующий handheld | HARD CUT на действии · ладонь бьёт в дверь → в кафель |
+| 020 | 6.0–11.0 | 5.0 | WS сверху | 28 мм / 63° | 1.6 м, 12.1° вниз | статика | HARD CUT на действии · первый шаг |
+| 030 | 11.0–16.0 | 5.0 | MLS со спины, коридор | 35 мм / 63° | 1.0 м, 9.7° вниз | follow 3 км/ч | HARD CUT на действии · порог |
+| 040 | 16.0–22.0 | 6.0 | MLS двоих, дверь сверху в глубине | 35 мм / 63° | 1.0 м, 9.7° вниз | статика | HARD CUT по взгляду · вниз на подушку |
+| 045 | 22.0–27.0 | 5.0 | два лица этажами | 50 мм / 47° | 0.70 м, 6.8° вниз | статика + перевод фокуса | HARD CUT на действии · рука Пипа |
+| 050 | 27.0–34.0 | 7.0 | ECU рук сверху | 85 мм / 29° | 1.0 м, 35° вниз | статика | MATCH CUT · пальцы с корабликом в той же точке |
+| 060 | 34.0–40.0 | 6.0 | ладонь → лицо | 50 мм / 47° | 0.9 м, 25° → 6.8° вниз | tilt вверх за 2 с | DISSOLVE 1 с · глаза → глаза |
+| 070 | 40.0–45.0 | 5.0 | MCU двоих этажами | 50 мм / 47° | 0.8 м, 6.8° вниз | статика | FADE 1 с |
 
-Сумма: 6+5+5+6+5+7+6+5 = 45.0 с ✓. Каждый шот генерируется на 1 с длиннее (запас 0.5 с с краёв, склейки плавают на ±0.5 с — S.11).
+Сумма 45.0 с ✓. Генерация каждого шота на 1 с длиннее (целые секунды, Seedance 2.5: 4–30 с).
 
-## GEOMETRY (16:9, сенсор 36 мм, d = H·f / (0.2025·P))
+## GEOMETRY (9:16)
 
 ```
 GEOMETRY SH010
-INTENT: equal — two kids in an equal tug-of-war, viewer at their height
-CAMERA: height 1.0 m · lens 35 mm · tilt 5.5° down
-HEROES: Willa head 1.20 m (leaning back, knees bent) · Pip head 1.10 m (standing, on tiptoe up to 1.15)
-RESULT: both heads just above the horizon (1.0 m) — equal force · horizon on the upper third line
-SIZE: Willa large = 80% of frame height at 2.6 m (1.20·35/(0.2025·80) = 2.59)
-THIRDS: Willa on the left third · Pip in the door gap on the right third · eyes on the upper third line · focal point = her grip on his wrist + the boat, upper-right intersection · open space between them
+INTENT: equal — two kids in a tug-of-war, viewer at their height; their faces stacked in depth
+CAMERA: height 1.0 m · lens 35 mm (32.3° horizontal) · tilt 9.7° down
+HEROES: Willa head 1.20 m (leaning back) at 1.5 m · Pip head 1.10 m (standing, on tiptoe to 1.15) in the gap at 2.2 m
+RESULT: both heads above the horizon (1.0 m) — equal · horizon on the upper third line
+SIZE: Willa large, cut by the left frame edge, boots to head ≈ 83% of frame height at 1.5 m · Pip full figure 47% at 2.2 m (1.10·35/(0.36·47) = 2.28)
+THIRDS: Willa's face on the left third, upper line · the door gap as a vertical strip on the center-right · Pip's face at the upper-right intersection · their hands + boat at the center, ≈55% height
+SAFE ZONE: faces 70–80% height, hands 55% — above 33% ✓; the boat landing at her boots falls into the lower zone (≈10%) → the boat is re-shown high in SH020
 CHECK: yes
 ```
 ```
 GEOMETRY SH020
 INTENT: small and pressed — the station swallows her, the door is gone
-CAMERA: height 1.6 m · lens 28 mm · tilt 6.9° down
-HEROES: Willa head 1.30 m (standing)
+CAMERA: height 1.6 m · lens 28 mm · tilt 12.1° down
+HEROES: Willa head 1.30 m (standing) at 3.4 m
 RESULT: head below horizon (1.6 > 1.30) · horizon on the upper third line
-SIZE: small = 30% at 6.0 m (1.30·28/(0.2025·30) = 5.99); floor visible from 3.2 m → boat placed 3.5 m from camera
-THIRDS: Willa on the left third, back to camera, facing the wall · boat lower-right intersection · open space right (where she will go)
+SIZE: small = 30% at 3.4 m (1.30·28/(0.36·30) = 3.37)
+THIRDS: Willa in the center-left, back to camera, facing the wall · the boat lights up 1 m to her right and drifts along the wall into depth, at 4.5 m it sits at ≈38% height · open space up and right
+SAFE ZONE: Willa ≈40–70%, boat 38% ✓
 CHECK: yes
 ```
 ```
 GEOMETRY SH030
 INTENT: determined — she moves forward on her own will
-CAMERA: height 1.0 m · lens 35 mm · tilt 5.5° down · follows 4.5 m behind
+CAMERA: height 1.0 m · lens 35 mm · tilt 9.7° down · follows 2.5 m behind
 HEROES: Willa head 1.30 m (wading)
 RESULT: head above horizon (1.30 > 1.0) · horizon on the upper third line
-SIZE: medium = 50% at 4.5 m (1.30·35/(0.2025·50) = 4.49)
-THIRDS: Willa centered in the passage (the passage lines converge on the door, deliberate center) · glowing boat ahead on the lower third · door at the vanishing point
+SIZE: medium = 50% at 2.5 m (1.30·35/(0.36·50) = 2.53)
+THIRDS: Willa centered (the passage converges on the door — deliberate center) · door at the vanishing point, upper third · boat ahead of her at ≈40%
+SAFE ZONE: ✓
 CHECK: yes
 ```
 ```
 GEOMETRY SH040
-INTENT: small and powerless — two kids in a dark room, she cannot change anything
-CAMERA: height 1.0 m · lens 35 mm · tilt 5.5° down · corner by the window, diagonal to the door
-HEROES: Willa head 1.30 m at the door (5.2 m) → 0.95 m kneeling (3.65 m) · Pip head 0.70 m (sitting on the floor)
-RESULT: after she kneels both heads below horizon (1.0 > 0.95, 0.70) · horizon on the upper third line
-SIZE: Willa kneeling medium = 45% at 3.65 m (0.95·35/(0.2025·45) = 3.65); at the door 43% at 5.2 m
-THIRDS: bed on the left · Pip on the right-center lower third · Willa kneels on the right third, facing screen-left toward Pip and the bed · focal point = her hand on his shoulder
+INTENT: small and powerless — two kids in a dark room
+CAMERA: height 1.0 m · lens 35 mm · tilt 9.7° down · corner by the window, diagonal to the door
+HEROES: Willa 1.30 m at the door (5 m) → kneeling, head 0.95 m at 2.05 m · Pip sitting, head 0.70 m at 2.05 m
+RESULT: after she kneels both heads below the horizon (1.0) · horizon on the upper third line
+SIZE: Willa kneeling medium = 45% at 2.05 m (0.95·35/(0.36·45) = 2.05); frame width at 2.05 m ≈ 1.2 m — they sit shoulder to shoulder
+THIRDS: the door in the upper third (her entry) · Willa's head at 65%, Pip's at 53% · her hand on his shoulder at ≈50%
+SAFE ZONE: ✓
 CHECK: yes
 ```
 ```
 GEOMETRY SH045
 INTENT: equal — she meets herself
-CAMERA: height 0.75 m · lens 50 mm · tilt 0° · beside the nightstand at the bed head
-HEROES: sleeping Willa head on the pillow 0.62 m, 0.6 m from lens · ghost Willa eyes 0.85 m (kneeling), 1.5 m from lens
-RESULT: sleeping face below, ghost eyes slightly above the horizon (0.75) — the ghost looks down at herself
-SIZE: sleeping face fills the left third in the foreground; ghost face medium close-up on the right third
-THIRDS: sleeping face on the left third · ghost eyes on the upper-right intersection · focus pulls from the ghost to the sleeping face
+CAMERA: height 0.70 m · lens 50 mm · tilt 6.8° down · beside the nightstand at the bed head
+HEROES: sleeping Willa head on the pillow 0.62 m at 0.6 m · ghost Willa eyes 0.85 m (kneeling) at 1.5 m
+RESULT: horizon on the upper third line; the ghost's eyes above it — she looks down at herself
+SIZE: sleeping face large in the lower half; ghost face medium close-up in the upper part
+THIRDS: sleeping face center ≈48% height · ghost eyes ≈82% height, upper third · two identical gold star clips stacked in one frame
+SAFE ZONE: ✓
 CHECK: yes
 ```
 ```
 GEOMETRY SH050
-INTENT: detail — what his hands do is the whole story
-CAMERA: height 1.0 m · lens 85 mm · tilt 35° down onto the quilt
-HEROES: hands only (quilt at 0.55 m)
-RESULT: no horizon (looking down at the quilt)
-SIZE: two child hands and the 12 cm boat fill 60% of the frame width
-THIRDS: her open palm on the lower-left intersection · his hands enter from the right
+INTENT: detail — his hands tell the story
+CAMERA: height 1.0 m · lens 85 mm · tilt 35° down onto the quilt (0.55 m)
+RESULT: no horizon
+SIZE: her open palm and the 12 cm boat fill 60% of the frame width
+THIRDS: her palm at ≈40% height center · his hands enter from the top
+SAFE ZONE: ✓
 CHECK: yes
 ```
 ```
 GEOMETRY SH060
-INTENT: equal → inward — the decision is hers
-CAMERA: height 0.9 m · lens 50 mm · starts tilted 25° down on her palm (0.70 m), tilts up 15° to her face (eyes 0.85 m), ends 10° down
-HEROES: ghost Willa kneeling, eyes 0.85 m · Pip in the soft background, head 0.65 m resting on the bed edge
-RESULT: her eyes just below the horizon at the end — inward, quiet · horizon on the upper third line at the end
-SIZE: start — palm with the boat in the same screen spot as the end of SH050 (match); end — close-up, face 55% of frame height
-THIRDS: end — her eyes on the upper third line, right third · Pip soft on the left lower third
+INTENT: inward — the decision is hers
+CAMERA: height 0.9 m · lens 50 mm · tilt 25° down on her palm (0.70 m), tilts up to 6.8° down on her face
+HEROES: ghost Willa kneeling, eyes 0.85 m at 1.2 m · Pip soft in the background, head 0.65 m on the bed edge
+RESULT: end — her eyes just under the camera height, horizon on the upper third line
+SIZE: start — palm in the same screen spot as the end of SH050 (≈40% height, center); end — close-up
+THIRDS: end — her eyes at ≈61% height · Pip soft lower left
+SAFE ZONE: ✓
 CHECK: yes
 ```
 ```
 GEOMETRY SH070
 INTENT: equal — finally eye to eye
-CAMERA: height 0.8 m · lens 50 mm · tilt 0°
-HEROES: Willa head on the pillow 0.62 m (left) · Pip head 0.65 → 0.80 m (lifts it from the bed edge, right)
-RESULT: both eyes near the horizon (0.8) at the end — equal
-SIZE: medium close-up of both, faces 30% of frame height each
-THIRDS: Willa's eyes on the left third · Pip's eyes on the right third, upper line · joined hands with the boat at the lower center (end frame)
+CAMERA: height 0.8 m · lens 50 mm · tilt 6.8° down · beside the bed
+HEROES: Willa head on the pillow 0.62 m at 1.0 m (lower) · Pip head 0.65 → 0.80 m at 1.4 m (upper)
+RESULT: Pip's eyes reach the horizon, Willa looks up at him — he is the one who brought her back
+SIZE: medium close-up of both, stacked
+THIRDS: Willa's face ≈41% · Pip's face ≈67% · joined hands with the boat ≈32% (end frame: boat star catches the nightlight)
+SAFE ZONE: faces ✓; hands on the edge of the zone — the final hold lasts 1.5 s, the caption usually appears later
 CHECK: yes
 ```
 
-## Карточки панелей (сжато, B.18.14)
+## Карточки панелей (сжато)
 
-**SH010 | хук | 6.0 с** · IDEA: кто кого спасает — зритель уверен, что она его. Интенсивность высокая. POV Уиллы. · LEAVE OUT: комната за Пипом почти вся засвечена тёплым — видно только край стены со звёздами. · MASSES: тёмная холодная станция, яркая тёплая щель справа. · FOCAL: её хват на его запястье + кораблик в его пальцах (самое контрастное: белая бумага в тёплом свете). · LINES: её тело — длинная диагональ от упора сапог к руке; щель — вертикаль. · POWER: равны, щель между ними — граница миров. · SCREEN: она тянет влево, дверь тянет вправо. · CUT OUT: ладонь бьёт в закрытую дверь → SH020.
+**SH010 | хук** · IDEA: зритель уверен, что она спасает его. · MASSES: тёмная холодная станция, яркая тёплая вертикальная полоса щели. · FOCAL: её хват на его запястье + белый кораблик в тёплом свете. · LINES: щель — вертикаль через весь кадр; её рука — диагональ от лица к щели. · POWER: равны. · CUT OUT: ладонь бьёт в закрытую дверь.
 
-**SH020 | двери нет | 5.0 с** · IDEA: сила не работает. Высокая. · MASSES: чернота станции, светлый пятачок кафеля, золотая точка кораблика сзади. · FOCAL: сначала её удары, потом загорающийся кораблик (самая тёплая точка). · SCREEN: кораблик плывёт вправо; она оборачивается через правое плечо. · CUT OUT: первый шаг вправо.
+**SH020 | двери нет** · IDEA: сила не работает. · FOCAL: её удары → загорающийся кораблик (самая тёплая точка). · CUT OUT: первый шаг.
 
-**SH030 | за корабликом | 5.0 с** · IDEA: надежда. Средняя. · LINES: переход сходится к двери, полоска тёплого света под дверью. · MOVE: follow, конечная композиция — её силуэт в тёплом проёме. · CUT OUT: переступает порог.
+**SH030 | за корабликом** · IDEA: надежда. · LINES: коридор сходится к двери, полоска тёплого света под ней. · END: её силуэт в тёплом проёме.
 
-**SH040 | рука насквозь | 6.0 с** · IDEA: перелом тактики силы. Средняя → тишина. · MASSES: тёплое пятно ночника на Пипе и корабликах; Уилла в холодном голубом свете. · FOCAL: её рука на его плече; кардиган не мнётся, он не оборачивается. · POWER: оба под горизонтом; разный свет — разные миры (B.18.7). · CUT OUT: взгляд влево на подушку.
+**SH040 | рука насквозь** · IDEA: перелом тактики силы. · MASSES: тёплое пятно ночника на Пипе и корабликах; Уилла в холодном голубом. · FOCAL: её рука на его плече; кардиган не мнётся. · CUT OUT: взгляд вниз-влево на подушку.
 
-**SH045 | узнавание | 5.0 с** · IDEA: «это я». Сдержанно (2). · FOCAL: две одинаковые заколки-звезды в одном кадре. · MOVE: фокус с призрака на спящую. · CUT OUT: рука Пипа входит в кадр.
+**SH045 | узнавание** · IDEA: «это я». · FOCAL: две одинаковые заколки-звезды одна над другой. · MOVE: фокус с призрака (верх) на спящую (низ).
 
-**SH050 | его руки | 7.0 с** · IDEA: он делает это не первый раз. · FOCAL: кораблик ложится в ладонь. · SECONDARY: он закатывает сползающий рукав. · CUT OUT: MATCH — сомкнутые пальцы.
+**SH050 | его руки** · IDEA: он делает это не первый раз. · SECONDARY: закатывает рукав. · CUT OUT: MATCH — сомкнутые пальцы.
 
-**SH060 | решение | 6.0 с** · IDEA: перестать тянуть, принять. Сдержанно (2). · FOCAL: кораблик → её глаза → закрытые глаза. · CUT OUT: наплыв.
+**SH060 | решение** · IDEA: перестать тянуть, принять. · FOCAL: кораблик → её глаза → закрытые глаза.
 
-**SH070 | глаза в глаза | 5.0 с** · IDEA: дома. Тихая радость, не улыбка до ушей. · FOCAL: их взгляды; финальный кадр — кораблик со звездой в сцепленных руках. · CUT OUT: затемнение.
+**SH070 | глаза в глаза** · IDEA: дома. · FOCAL: их взгляды; финал — кораблик со звездой в сцепленных руках.
 
-## Проверка последовательности (B.18.10–11)
-- Нарастание: широкие и средние планы в хуке → крупные в раскрытии; самый сильный приём (MATCH CUT рука-в-руку) потрачен один раз, на повороте.
-- Направление: на станции всё движение вправо (к дому); в детской Уилла приходит справа и смотрит влево — встречное направление, «разворот» её пути.
-- Внимание через склейки: ладонь → ладонь (010→020); шаг → шаг (020→030); порог → порог (030→040); взгляд → подушка (040→045); рука → рука (050→060).
+## Последовательность
+- Нарастание: средние и общие в хуке → крупные в раскрытии; MATCH CUT потрачен один раз.
+- Через склейки внимание держится в центре вертикали: ладонь → ладонь, шаг → шаг, порог → порог, взгляд → подушка, рука → рука.
