@@ -7,7 +7,7 @@
 |---|---|---|---|
 | A 0.0–2.5 | Hip-Level, front three-quarter (станция) | `frames/SH010v3_A2e.png` | https://res-prod.buzzy.now/file-service/861ee546-57af-4f3e-89de-044f4c5934c7.png |
 | B 2.5–4.6 | Through-an-Opening, обратная точка из комнаты | `frames/SH010v3_Be.png` | https://res-prod.buzzy.now/file-service/ec104803-5940-46a4-997d-f14e545e4fc0.png |
-| C 4.6–7.0 | Split-Level Waterline | `frames/SH010v3_C.png` | https://res-prod.buzzy.now/file-service/1ecb36a6-bf64-475a-8058-f113b0f10a6d.png |
+| C 4.6–7.0 | Split-Level Waterline | `frames/SH010v3_Ce.png` (правка: вода 15 см, по щиколотку, стойка как в A) | https://res-prod.buzzy.now/file-service/a7a713e0-a4c0-496f-b3bf-af2cd27c3cb5.png |
 
 Стороны экрана сохраняются через склейку сквозь дверь: Пип всегда слева, Уилла справа (A: Пип в щели слева, она справа; B: Пип на переднем плане слева, она в щели справа; C: место щели слева-по центру, её ноги справа).
 
@@ -32,7 +32,7 @@ FORMAT MODE: timed multishot; cuts only at the specified points, the camera does
 2.5s HARD CUT
 2.5s to 4.6s — SHOT 2, reverse angle from inside the warm room through the gap, FOV 29°, camera just behind Pip's right shoulder at 0.9 m, static. The gap is a thin 12 cm slit: we see one of Willa's eyes and her fingers curled around the outside edge of the door. Pip pushes the boat into the slit, bow first, toward her; her fingers stay on the door edge. 3.4s his eyes go from her eye to her fingers. 3.9s the slit narrows to 8 cm; he opens his fingers and lets the boat slip through to her side, then pulls his hand back inside at 4.2s.
 4.6s HARD CUT
-4.6s to 7.0s — SHOT 3, split-level waterline, FOV 84°, camera exactly at the water surface 0.7 m in front of the door base, static; above the line the door, below it the submerged tiles. 5.0s the paper boat drops into the frame from above, flutters and lands on the water right on the waterline at 5.3s, star facing the camera; 5.7s the door slams shut and the warm line of light under it snaps out; Willa's two legs on the right stay planted, her boots shift once; 6.2s–7.0s the boat rocks, ripples and tiny bubbles settle.
+4.6s to 7.0s — SHOT 3, split-level waterline, FOV 84°, camera exactly at the water surface 0.7 m in front of the door base, static; above the line the door, below it the submerged tiles. 5.0s the paper boat drops into the frame from above, flutters and lands on the water right on the waterline at 5.3s, star facing the camera; 5.7s the door slams shut and the warm line of light under it snaps out; Willa's two legs stay planted in the same lunge, the front boot at the base of the door, the water only up to her ankles, her boots shift once; 6.2s–7.0s the boat rocks, ripples and tiny bubbles settle.
 
 PERFORMANCE:
 ACTING TASK — WILLA (fully invested in the tactic; the work happens in the eyes):
