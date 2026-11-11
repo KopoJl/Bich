@@ -44,3 +44,8 @@ The white paper boat with the gold star floats on the water 40 cm from the lens,
 Light: cold teal light from the station ceiling; the only warm touch is a faint golden reflection on the boat and the line under the door.
 No text, no labels, no watermark.
 ```
+
+## Статус (утверждаемые версии)
+- A: `frames/SH010v2_A_e.png` — правка: заколка убрана с видимой правой стороны головы (вид из-за правого плеча). https://res-prod.buzzy.now/file-service/448e48b4-760c-427c-851c-5f85acd927ab.png
+- B: `frames/SH010v2_B_e.png` — правка: камера ниже, она в глубоком приседе тянет руку в светящуюся щель, второй ладонью упирается в створку (первый вариант читался как «закрывает дверь»). https://res-prod.buzzy.now/file-service/e963886d-b5ca-4b31-a236-7b410c1a2594.png
+- C: `frames/SH010v2_C.png` — принят с первого раза. https://res-prod.buzzy.now/file-service/86f4f9f3-0015-4aa8-8d42-178c4c74f126.png
