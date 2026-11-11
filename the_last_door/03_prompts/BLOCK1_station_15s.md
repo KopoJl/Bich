@@ -9,7 +9,7 @@
 2. `frames/SH010v3_Be.png` — https://res-prod.buzzy.now/file-service/ec104803-5940-46a4-997d-f14e545e4fc0.png
 3. `frames/SH010v3_C_gl1.png` — https://res-prod.buzzy.now/file-service/eec0d503-7929-43b7-a51b-3796875f0730.png
 4. `frames/SH020_kf1.png` — https://res-prod.buzzy.now/file-service/57e49f3a-9c68-4a51-9100-d7a448a6d460.png
-5. `frames/SH030_kf1e.png` — (правка: заколка убрана с видимой правой стороны)
+5. `frames/SH030_kf1e.png` — https://res-prod.buzzy.now/file-service/fe4d60b2-4d18-4919-a9cf-bf4f51023fea.png (правка: заколка убрана с видимой правой стороны)
 6. карта WILLA v1e — https://res-prod.buzzy.now/file-service/82a9c541-7965-4dbf-b44f-13473d16db0f.png
 7. карта PIP v2e — https://res-prod.buzzy.now/file-service/a9567744-ae34-4bf1-a928-d93458819feb.png
 
