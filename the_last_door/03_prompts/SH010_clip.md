@@ -7,9 +7,9 @@
 |---|---|---|---|
 | A 0.0–2.5 | Hip-Level, front three-quarter (станция) | `frames/SH010v3_A2e.png` | https://res-prod.buzzy.now/file-service/861ee546-57af-4f3e-89de-044f4c5934c7.png |
 | B 2.5–4.6 | Through-an-Opening, обратная точка из комнаты | `frames/SH010v3_Be.png` | https://res-prod.buzzy.now/file-service/ec104803-5940-46a4-997d-f14e545e4fc0.png |
-| C 4.6–7.0 | Split-Level Waterline | `frames/SH010v3_Ce.png` (правка: вода 15 см, по щиколотку, стойка как в A) | https://res-prod.buzzy.now/file-service/a7a713e0-a4c0-496f-b3bf-af2cd27c3cb5.png |
+| C 4.6–7.0 | Ground-Level (камера в нескольких см над водой) | `frames/SH010v3_C_gl1.png` | https://res-prod.buzzy.now/file-service/eec0d503-7929-43b7-a51b-3796875f0730.png |
 
-Стороны экрана сохраняются через склейку сквозь дверь: Пип всегда слева, Уилла справа (A: Пип в щели слева, она справа; B: Пип на переднем плане слева, она в щели справа; C: место щели слева-по центру, её ноги справа).
+Стороны экрана сохраняются через склейку сквозь дверь: Пип всегда слева, Уилла справа (A: Пип в щели слева, она справа; B: Пип на переднем плане слева, она в щели справа; C: дверь и место щели слева, её ноги в выпаде справа).
 
 Настройки: Seedance 2.5, omni_reference, 7 с, 720p, 9:16, generate_audio = on. В Higgsfield кадр A — `start_image`.
 Референсы (порядок загрузки): @image1 = кадр A; @image2 = кадр B; @image3 = кадр C; @image4 = карта WILLA (v1e); @image5 = карта PIP (v2e).
@@ -24,7 +24,7 @@ ACTIVE REFERENCES:
 @image4 = WILLA: 9-year-old girl, 1.30 m, about 4 heads tall, round face, large dark-brown eyes, freckles across the nose, chin-length dark auburn bob, small gold star hair clip on her LEFT temple, glossy mustard-yellow raincoat with big round toggles, navy rubber boots. Soaked. 100% matches the reference.
 @image5 = PIP: 6-year-old boy, 1.10 m, about 3.5 heads tall, round face, big ears, large dark-brown eyes, gap in his front teeth, messy dark auburn hair with a cowlick, oversized moss-green knitted cardigan with sleeves past his fingertips, cream-and-rust striped pajamas, grey wool socks. Dry. 100% matches the reference.
 
-LOCATION MAP: the pale-blue door in the cream-tiled wall, hinges on its right, the gap at its left edge; the warm bedroom behind it; the flooded platform with water 15 cm deep in front of it. Pip stays inside the room on the left of the gap, Willa stays on the station side right in front of the door; on screen Pip is always on the left and Willa on the right.
+LOCATION MAP: the pale-blue door in the cream-tiled wall, hinges on its right, the gap at its left edge; the warm bedroom behind it; the flooded platform with shallow water 5 cm deep in front of it. Pip stays inside the room on the left of the gap, Willa stays on the station side right in front of the door; on screen Pip is always on the left and Willa on the right.
 
 FORMAT MODE: timed multishot; cuts only at the specified points, the camera does not cut on its own.
 
@@ -32,7 +32,7 @@ FORMAT MODE: timed multishot; cuts only at the specified points, the camera does
 2.5s HARD CUT
 2.5s to 4.6s — SHOT 2, reverse angle from inside the warm room through the gap, FOV 29°, camera just behind Pip's right shoulder at 0.9 m, static. The gap is a thin 12 cm slit: we see one of Willa's eyes and her fingers curled around the outside edge of the door. Pip pushes the boat into the slit, bow first, toward her; her fingers stay on the door edge. 3.4s his eyes go from her eye to her fingers. 3.9s the slit narrows to 8 cm; he opens his fingers and lets the boat slip through to her side, then pulls his hand back inside at 4.2s.
 4.6s HARD CUT
-4.6s to 7.0s — SHOT 3, split-level waterline, FOV 84°, camera exactly at the water surface 0.7 m in front of the door base, static; above the line the door, below it the submerged tiles. 5.0s the paper boat drops into the frame from above, flutters and lands on the water right on the waterline at 5.3s, star facing the camera; 5.7s the door slams shut and the warm line of light under it snaps out; Willa's two legs stay planted in the same lunge, the front boot at the base of the door, the water only up to her ankles, her boots shift once; 6.2s–7.0s the boat rocks, ripples and tiny bubbles settle.
+4.6s to 7.0s — SHOT 3, ground level, FOV 84°, camera a few centimeters above the shallow water, 0.8 m in front of the door, static, looking horizontally along the water at the base of the door. Willa's legs in the same lunge as in SHOT 1: the front boot at the base of the door, the back leg stretched behind to the right; the water is only 5 cm deep, splashing around the boot soles. 5.0s the paper boat drops into the frame from above, flutters and lands on the water by her front boot at 5.3s, star facing the camera; 5.7s the door slams shut and the thin line of warm light under it snaps out; her boots shift once with a splash; 6.2s–7.0s the boat rocks, ripples settle.
 
 PERFORMANCE:
 ACTING TASK — WILLA (fully invested in the tactic; the work happens in the eyes):
