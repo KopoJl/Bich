@@ -18,29 +18,21 @@
 
 | SH | Время | Длит. | План | Объектив / FOV | Высота, наклон | Движение | Склейка OUT (тип · ориентир) |
 |---|---|---|---|---|---|---|---|
-| 010 | 0.0–6.0 | 6.0 | Уилла MLS на переднем плане + Пип FS в щели | 35 мм / 63° | 1.0 м, 9.7° вниз | дрейфующий handheld | HARD CUT на действии · ладонь бьёт в дверь → в кафель |
-| 020 | 6.0–11.0 | 5.0 | WS сверху | 28 мм / 63° | 1.6 м, 12.1° вниз | статика | HARD CUT на действии · первый шаг |
-| 030 | 11.0–16.0 | 5.0 | MLS со спины, коридор | 35 мм / 63° | 1.0 м, 9.7° вниз | follow 3 км/ч | HARD CUT на действии · порог |
-| 040 | 16.0–22.0 | 6.0 | MLS двоих, дверь сверху в глубине | 35 мм / 63° | 1.0 м, 9.7° вниз | статика | HARD CUT по взгляду · вниз на подушку |
-| 045 | 22.0–27.0 | 5.0 | два лица этажами | 50 мм / 47° | 0.70 м, 6.8° вниз | статика + перевод фокуса | HARD CUT на действии · рука Пипа |
-| 050 | 27.0–34.0 | 7.0 | ECU рук сверху | 85 мм / 29° | 1.0 м, 35° вниз | статика | MATCH CUT · пальцы с корабликом в той же точке |
+| 010 | 0.0–7.0 | 7.0 | **мультишот v2:** A через плечо (0–2.8) · B снизу на лицо (2.8–4.8) · C у воды (4.8–7.0) | 50 мм/47° · 50 мм/47° · 24 мм/84° | 1.0 · 0.75 · 0.23 м | handheld · статика · статика | HARD CUT на ударе двери → SH020 (её ладони бьют в кафель) |
+| 020 | 7.0–12.0 | 5.0 | WS сверху | 28 мм / 63° | 1.6 м, 12.1° вниз | статика | HARD CUT на действии · первый шаг |
+| 030 | 12.0–17.0 | 5.0 | MLS со спины, коридор | 35 мм / 63° | 1.0 м, 9.7° вниз | follow 3 км/ч | HARD CUT на действии · порог |
+| 040 | 17.0–23.0 | 6.0 | MLS двоих, дверь сверху в глубине | 35 мм / 63° | 1.0 м, 9.7° вниз | статика | HARD CUT по взгляду · вниз на подушку |
+| 045 | 23.0–28.0 | 5.0 | два лица этажами | 50 мм / 47° | 0.70 м, 6.8° вниз | статика + перевод фокуса | HARD CUT на действии · рука Пипа |
+| 050 | 28.0–34.0 | 6.0 | ECU рук сверху | 85 мм / 29° | 1.0 м, 35° вниз | статика | MATCH CUT · пальцы с корабликом в той же точке |
 | 060 | 34.0–40.0 | 6.0 | ладонь → лицо | 50 мм / 47° | 0.9 м, 25° → 6.8° вниз | tilt вверх за 2 с | DISSOLVE 1 с · глаза → глаза |
 | 070 | 40.0–45.0 | 5.0 | MCU двоих этажами | 50 мм / 47° | 0.8 м, 6.8° вниз | статика | FADE 1 с |
 
-Сумма 45.0 с ✓. Генерация каждого шота на 1 с длиннее (целые секунды, Seedance 2.5: 4–30 с).
+Сумма 7+5+5+6+5+6+6+5 = 45.0 с ✓ (SH010 удлинён до 7 с, SH050 сокращён до 6 с). Генерация каждого шота на 1 с длиннее (целые секунды, Seedance 2.5: 4–30 с).
 
 ## GEOMETRY (9:16)
 
 ```
-GEOMETRY SH010
-INTENT: equal — two kids in a tug-of-war, viewer at their height; their faces stacked in depth
-CAMERA: height 1.0 m · lens 35 mm (32.3° horizontal) · tilt 9.7° down
-HEROES: Willa head 1.20 m (leaning back) at 1.5 m · Pip head 1.10 m (standing, on tiptoe to 1.15) in the gap at 2.2 m
-RESULT: both heads above the horizon (1.0 m) — equal · horizon on the upper third line
-SIZE: Willa large, cut by the left frame edge, boots to head ≈ 83% of frame height at 1.5 m · Pip full figure 47% at 2.2 m (1.10·35/(0.36·47) = 2.28)
-THIRDS: Willa's face on the left third, upper line · the door gap as a vertical strip on the center-right · Pip's face at the upper-right intersection · their hands + boat at the center, ≈55% height
-SAFE ZONE: faces 70–80% height, hands 55% — above 33% ✓; the boat landing at her boots falls into the lower zone (≈10%) → the boat is re-shown high in SH020
-CHECK: yes
+GEOMETRY SH010 — v2, три сегмента: см. 03_prompts/SH010_keyframes.md (A over-the-shoulder 1.0 м/50 мм, B low-angle 0.75 м/50 мм, C ground-level 0.23 м/24 мм). Версия v1 (один общий план) отклонена — разбор в 00_bible/pro_method.md.
 ```
 ```
 GEOMETRY SH020
