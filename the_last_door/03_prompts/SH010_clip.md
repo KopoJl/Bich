@@ -1,8 +1,8 @@
 # SH010 — клип Seedance 2.5 (720p, 9:16, 7 с генерации; в монтаж 0.0–6.0) — версия 2 (вертикаль)
 
-Референсы (порядок загрузки): @image1 = утверждённый Start Frame SH010; @image2 = карта WILLA (плащ); @image3 = карта PIP.
+Референсы (порядок загрузки): @image1 = Start Frame SH010 v1 (`frames/SH010_start_v1.png`, Buzzy: https://res-prod.buzzy.now/file-service/a1c129c3-42d9-47a3-97b7-d0f19491987a.png); @image2 = карта WILLA (плащ); @image3 = карта PIP.
 
-Настройки: Seedance 2.5, режим omni_reference, 7 с (целое число, диапазон 4–30), 720p, 9:16, generate_audio = on. Промт 7292 символов при лимите 10000. В Higgsfield Start Frame подаётся ролью `start_image`; в Buzzy у Seedance 2.5 первого кадра нет, там @image1 работает только как референс композиции.
+Настройки: Seedance 2.5, режим omni_reference, 7 с (целое число, диапазон 4–30), 720p, 9:16, generate_audio = on. Промт 7482 символов при лимите 10000. В Higgsfield Start Frame подаётся ролью `start_image`; в Buzzy у Seedance 2.5 первого кадра нет, там @image1 работает только как референс композиции.
 
 ```
 SCENE CONTEXT: Night, a flooded old metro platform. A girl on the platform side holds a closing bedroom door set into the tiled wall and pulls her little brother by the wrist through the gap; he stands inside a warm room and pushes a paper boat toward her.
@@ -14,7 +14,7 @@ ACTIVE REFERENCES:
 
 LOCATION MAP (vertical frame): bottom — still dark water 15 cm deep over the platform tiles; middle — the cream-white tiled wall with the pale-blue wooden door, open toward the platform by 40 cm, its gap a tall bright vertical strip center-right; top — the door-closer arm pulling the leaf shut and rows of cold ceiling tubes. Camera on the platform side, 1.5 m behind and left of Willa. Light comes from the gap (warm) and from the ceiling (cold).
 
-FIRST FRAME / BLOCKING: Willa in the foreground on the left, 1.5 m from camera, her body partly cut by the left frame edge, facing the gap, leaning back in one long diagonal, LEFT hand on the free edge of the door leaf, RIGHT hand reaching into the gap toward Pip's RIGHT wrist; her face on the left third, upper part of the frame. Pip deeper, 2.2 m from camera, full figure inside the gap, facing her, his face in the upper right, his LEFT hand braced on the door frame, his RIGHT hand holding the white paper boat with the gold star out toward her. Both move from the first frame. Strong visual silhouette: her pulling arm reads as one clear diagonal from her face to the bright vertical gap.
+FIRST FRAME / BLOCKING: Willa on the left in the foreground, about 1.5 m from camera, side-on, facing screen-right toward the gap, legs wide apart in the shallow water; her RIGHT hand, raised above her head, holds the edge of the door leaf; her LEFT arm stretches straight into the gap and her LEFT hand grips Pip's RIGHT wrist; her face on the left third, upper part of the frame, eyes on his face. Pip in the doorway, 2.2 m from camera, facing screen-left toward her, his RIGHT hand stretched out palm-up holding the white paper boat with the gold star just above her grip, his LEFT hand on the door frame; his face at the upper right, eyes on her gripping hand. Both move from the first frame. Strong visual silhouette: her pulling arm reads as one clear line from her face to the bright vertical gap.
 
 FORMAT MODE: one continuous shot, the camera does not cut on its own.
 
@@ -24,10 +24,10 @@ CAMERA: at 1.0 m, 1.5 m from Willa, tilted 10° down, slow drifting handheld: lo
 
 ACTION:
 0.0s to 0.3s — Willa sinks her hips down and back, weight onto her heels.
-0.3s to 0.8s — her RIGHT hand shoots through the gap in an arc and closes on Pip's RIGHT wrist; her knuckles whiten.
+0.3s to 0.8s — her LEFT hand clamps tighter on Pip's RIGHT wrist and her raised RIGHT hand slides down the door edge to shoulder height for a better hold; her knuckles whiten.
 0.8s to 2.5s — she heaves: her body bends into a long C-curve from the planted boots to the hand on the door, her cheek squashes against her raised shoulder. Pip plants his socks, leans back into the room, rises on tiptoe and pushes the boat toward her face, tapping her knuckles with it twice.
-2.5s to 4.0s — the door closer wins: the leaf swings back slowly, then faster, the gap narrows from 40 to 15 cm; her boots skid 20 cm on the wet tiles toward the door, water piles up in front of her heels, her LEFT arm folds at the elbow.
-4.0s to 4.6s — Pip twists his wrist out of her grip and pulls his arm back inside; the boat slips from his fingers, tumbles in a short arc and lands in the water on her side at her boots with a small splash.
+2.5s to 4.0s — the door closer wins: the leaf swings back slowly, then faster, the gap narrows from 40 to 15 cm; her boots skid 20 cm on the wet tiles toward the door, water piles up in front of her heels, her RIGHT arm on the door folds at the elbow.
+4.0s to 4.6s — Pip twists his wrist out of her LEFT hand's grip and pulls his arm back inside; the boat slips from his fingers, tumbles in a short arc and lands in the water on her side at her boots with a small splash.
 4.6s to 5.0s — the door slams shut, the warm light cuts off, the closer arm jerks; Willa is thrown forward by her own pull and her RIGHT palm slaps flat against the closed door at 5.3s.
 5.0s to 7.0s — she stays pressed to the door, shoulders heaving; the raincoat hem swings on for 0.5s and settles; wet hair sways once and sticks; at her boots the paper boat rocks on the dark water, star side up.
 
@@ -47,7 +47,7 @@ ACTING TASK — PIP:
 SCENE DIRECTION: to reach each other through the gap.
 MOTIVE: he must not cry, or she will not come · GOAL: make her take the boat · OBSTACLE: she grabs his wrist instead of the boat.
 TACTIC, moment to moment:
-— 0.8s — pushes the boat at her, eyes on her free hand: will she take it?
+— 0.8s — pushes the boat at her, eyes on her gripping hand: will she let go and take it?
 — 1.8s — taps her knuckles with the boat, eyes to her face, then back to the boat
 — 3.5s — looks at her grip on his wrist, swallows
 — 4.0s — twists free and lets go, eyes on the falling boat
