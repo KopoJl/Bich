@@ -60,7 +60,7 @@ PHYSICS: believable body structure, consistent limbs, natural contact shadows; e
 
 LIGHTING: warm 3200K light from the room is the only warm source and the brightest spot, coming only through the gap and later only under the door; cold 8500K ceiling tubes far away light the station from above, key to fill 4:1, most of the station in deep teal shadow; after the slam only the cold light remains.
 
-AUDIO: SFX only, no music, no speech, no words. Hum of the tubes and dripping water throughout. 0.0s–4.6s creak and hiss of the door closer, squeak of rubber boots on wet tiles, her strained breaths through the nose. 1.2s soft paper tap on wood. 5.3s small paper splash at the waterline. 5.7s heavy wooden door slam echoing in the tiled station, then muffled underwater thump.
+AUDIO: SFX only, no music, no speech, no words. Hum of the tubes and dripping water throughout. 0.0s–4.6s creak and hiss of the door closer, squeak of rubber boots on wet tiles, her strained breaths through the nose. 1.2s soft paper tap on wood. 5.3s small paper splash at the waterline. 5.7s heavy wooden door slam echoing in the tiled station.
 
 STYLE: polished family-friendly 3D animation, appealing rounded proportions, tactile but clean materials, premium cinematic 3D lighting, restrained color harmony, original character design.
 
